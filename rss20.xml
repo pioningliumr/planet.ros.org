@@ -1,0 +1,1895 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+
+<channel>
+	<title>Planet ROS</title>
+	<link>http://planet.ros.org</link>
+	<language>en</language>
+	<description>Planet ROS - http://planet.ros.org</description>
+
+<item>
+	<title>ROS Discourse General: ROS 2 TSC Meeting Minutes: 2020-10-15</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16849</guid>
+	<link>https://discourse.ros.org/t/ros-2-tsc-meeting-minutes-2020-10-15/16849</link>
+	<description>&lt;h1&gt;ROS 2 TSC Meeting Minutes - 2020-10-15&lt;/h1&gt;
+&lt;p&gt;&lt;a class=&quot;attachment&quot; href=&quot;https://discourse.ros.org/uploads/short-url/fZDXJHxVH3spvjbeKrmhFIZCyoX.pdf&quot;&gt;ROS 2 TSC Contribution Self-Report 2020-10-15.pdf&lt;/a&gt; (97.4 KB)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Attendees&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;eProsima: Jaime Martin, Eduardo Ponz, Pablo Garrido&lt;/li&gt;
+&lt;li&gt;Apex.AI: Dejan Pangercic&lt;/li&gt;
+&lt;li&gt;ROBOTIS: Will Son&lt;/li&gt;
+&lt;li&gt;ADLINK: Joe Speed with Angelo Corsaro, Luca Cominardi, Gabriele Baldoni for Zenoh presentation and demo.&lt;/li&gt;
+&lt;li&gt;Canonical: Sid Faber&lt;/li&gt;
+&lt;li&gt;AWS RoboMaker: Aaron Blasdel&lt;/li&gt;
+&lt;li&gt;Open Robotics: Brian Gerkey, William Woodall, Kat Scott, Dirk Thomas, Louise Poubel, Chris Lalancette, Tully Foote, Geoffrey Biggs&lt;/li&gt;
+&lt;li&gt;PickNik Robotics: Dave Coleman&lt;/li&gt;
+&lt;li&gt;Microsoft: Sean Yen&lt;/li&gt;
+&lt;li&gt;Toyota Research Institute: Ian McMahon&lt;/li&gt;
+&lt;li&gt;Samsung Research: Steve Macenski&lt;/li&gt;
+&lt;li&gt;LG Electronics: Lokesh Kumar Goel&lt;/li&gt;
+&lt;li&gt;SwRI, representing GVSC: Jerry Towler&lt;/li&gt;
+&lt;li&gt;TierIV: Jilada Eccleston&lt;/li&gt;
+&lt;li&gt;Rover Robotics: Nick Fragale&lt;/li&gt;
+&lt;li&gt;Bosch: Karsten Knese&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Preliminaries&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[Gerkey][1 min] Please remember to fill out your contribution report (bottom of this doc)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Old business&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;New business&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[Gerkey][10 min] Discuss pending applicants to join TSC
+&lt;ul&gt;
+&lt;li&gt;FYI, more applicants are in the pipeline&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[Angelo Corsaro][15 mins] Presentation: &lt;a href=&quot;http://zenoh.io/blog/2020-10-08-aithusa/&quot;&gt;Zenoh ROS 2 DDS discovery &amp;amp; router&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;[Jaime Martin][10 min] New ROS2 Discovery Server 2.0: Fast and scalable Discovery in big scale systems.&lt;/li&gt;
+&lt;li&gt;[Jaime Martin - Dave Coleman][5 min] Micro-ROS - MoveIt integration
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/15s4THJDJXTnt4wjGQFZCHcxbHLHL_zzy/view?usp=sharing&quot;&gt;Short version Video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/QfCDOGLsO60&quot;&gt;Alternative link in youtube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/wgIKGUGSX7Y&quot;&gt;FULL VIDEO&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Recurring business&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[Lalancette][5 mins] Updates on current and upcoming ROS 2 distro releases
+&lt;ul&gt;
+&lt;li&gt;Galactic timeline went live: &lt;a href=&quot;https://index.ros.org/doc/ros2/Releases/Release-Galactic-Geochelone/#id19&quot;&gt;https://index.ros.org/doc/ros2/Releases/Release-Galactic-Geochelone/#id19&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Galactic Roadmap went live: &lt;a href=&quot;https://index.ros.org/doc/ros2/Roadmap/&quot;&gt;https://index.ros.org/doc/ros2/Roadmap/&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Documentation move &lt;a href=&quot;http://index.ros.org&quot;&gt;index.ros.org&lt;/a&gt; -&amp;gt; &lt;a href=&quot;http://docs.ros.org&quot;&gt;docs.ros.org&lt;/a&gt; in progress: &lt;a href=&quot;https://github.com/ros-infrastructure/ros_buildfarm_config/pull/184&quot;&gt;https://github.com/ros-infrastructure/ros_buildfarm_config/pull/184&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Per-package documentation requirements mostly finalized&lt;/li&gt;
+&lt;li&gt;Currently collecting data and writing report for Default Middleware Selection&lt;/li&gt;
+&lt;li&gt;Adding more compiler flags to core packages&lt;/li&gt;
+&lt;li&gt;Work towards rclcpp Quality Level 1
+&lt;ul&gt;
+&lt;li&gt;Dependencies mostly done&lt;/li&gt;
+&lt;li&gt;Performance tests still to be written&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ROS 2 Moveit: Should be unblocked for releasing into Foxy (&lt;a href=&quot;https://github.com/ros2/console_bridge_vendor/issues/19&quot;&gt;https://github.com/ros2/console_bridge_vendor/issues/19&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Working groups [3-5 mins each]
+&lt;ul&gt;
+&lt;li&gt;[Knese] Control
+&lt;ul&gt;
+&lt;li&gt;Work towards the first demo with a dynamic and composable hardware API.&lt;/li&gt;
+&lt;li&gt;Joint Limit interface added&lt;/li&gt;
+&lt;li&gt;Services for Controller Manager, solution to be found for realtime executor in order to implement lock-free behavior.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[Speed] Edge AI
+&lt;ul&gt;
+&lt;li&gt;OpenCV presents at Oct 29th meeting to discuss the work they’re contributing to ros-perception/image_pipeline in support of its use in Autoware.Auto with ROS 2 Foxy for Indy Autonomous Challenge and F1TENTH.&lt;/li&gt;
+&lt;li&gt;Last two meetings cancelled because of IAC conflicts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[Martin Losa] Embedded
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/discovery-in-micro-ros/16611&quot;&gt;New: Discovery mechanism in micro-ROS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New: micro-ROS as an external module into Zephyr build-system&lt;/li&gt;
+&lt;li&gt;Community discussion: how to port micro-ROS to all Zephyr-supported boards&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/micro-xrce-dds-agent-now-on-snap/16523&quot;&gt;New: snap release of the Micro XRCE-DDS Agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/micro-ros-meets-moveit/16836&quot;&gt;New: demo integrating micro-ROS with MoveIt 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New: micro-ROS memory profiling: first results (full report coming soon)&lt;/li&gt;
+&lt;li&gt;Review: recent ports implemented by users to previously unsupported boards&lt;/li&gt;
+&lt;li&gt;Community discussion: use of NuttX in micro-ROS&lt;/li&gt;
+&lt;li&gt;WIP: Luxonis DepthAI BW1092 demo for micro-ROS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[Coleman] Manipulation
+&lt;ul&gt;
+&lt;li&gt;MoveIt is officially released on Noetic&lt;/li&gt;
+&lt;li&gt;Improved &lt;a href=&quot;https://moveit.ros.org/documentation/contributing/releases/&quot;&gt;release process and schedule&lt;/a&gt; for MoveIt established at 6 week intervals&lt;/li&gt;
+&lt;li&gt;GSoC was a big success this past summer&lt;/li&gt;
+&lt;li&gt;New focus on Cartesian planning capabilities, roadmap consisting of:
+&lt;ul&gt;
+&lt;li&gt;Cartesian planning with OMPL&lt;/li&gt;
+&lt;li&gt;moveit_servo&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ros-planning/moveit/pull/1893&quot;&gt;Pilz planner&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Reboot of MoveIt maintainer list (added 4, removed 3 inactive)&lt;/li&gt;
+&lt;li&gt;Starting work on migrating MoveIt 2 tutorials from MoveIt 1&lt;/li&gt;
+&lt;li&gt;Starting work on MoveIt 2 hardware demo &amp;amp; video this quarter&lt;/li&gt;
+&lt;li&gt;Collaborating with ros2_control team for hardware support&lt;/li&gt;
+&lt;li&gt;Adding multi-planner support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[Macenski] Navigation
+&lt;ul&gt;
+&lt;li&gt;Released Hybrid-A* / SmacPlanner &lt;a href=&quot;https://www.linkedin.com/feed/update/urn:li:activity:6721476787685224448&quot;&gt;https://www.linkedin.com/feed/update/urn:li:activity:6721476787685224448&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Released Keepout zones and costmap filters &lt;a href=&quot;https://navigation.ros.org/tutorials/docs/navigation2_with_keepout_filter.html&quot;&gt;https://navigation.ros.org/tutorials/docs/navigation2_with_keepout_filter.html&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Added waypoint task executor to waypoint follower package &lt;a href=&quot;https://navigation.ros.org/plugins/index.html&quot;&gt;https://navigation.ros.org/plugins/index.html&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Super compelling demonstrations of basic semantic capabilities and dynamic tracking capabilities in work for the last 6 months or so&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[Pangercic] Real-time
+&lt;ul&gt;
+&lt;li&gt;Work is now organized with the issues &lt;a href=&quot;https://github.com/ros-realtime/community/issues&quot;&gt;https://github.com/ros-realtime/community/issues&lt;/a&gt; in the RTWG github community&lt;/li&gt;
+&lt;li&gt;Our current focus is to get the performance_test running on a dedicated HW platform (with a big help of Joe &amp;amp; ADLINK)&lt;/li&gt;
+&lt;li&gt;We had a very interesting talk by Bosch on the model-based generation of synthetic robotics applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[Biggs] Safety
+&lt;ul&gt;
+&lt;li&gt;The Safety WG has grown up! We now have &lt;a href=&quot;https://github.com/ros-safety&quot;&gt;our own GitHub organisation&lt;/a&gt;, thanks to Tully.
+&lt;ul&gt;
+&lt;li&gt;Check out our &lt;a href=&quot;https://github.com/ros-safety/safety_working_group/blob/main/README.md&quot;&gt;working group definition document&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;We have active software projects that you can use to improve the quality and safety of your software.
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/ros-safety/software_watchdogs&quot;&gt;Software watchdogs&lt;/a&gt; in ROS 2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/ros-safety/contracts_lite&quot;&gt;C++ contracts library&lt;/a&gt; (also available as binaries from the ROS buildfarm!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;We are working on integrating &lt;a href=&quot;https://github.com/doorstop-dev/doorstop&quot;&gt;Doorstop&lt;/a&gt; (an open-source requirements management tool) into GitHub and GitLab for doing lightweight requirements management in OSS projects.&lt;/li&gt;
+&lt;li&gt;Meeting schedule is currently the first and third Wednesday of the month. Check the events calendar for details.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[Faber] Security
+&lt;ul&gt;
+&lt;li&gt;Revisited &lt;a href=&quot;https://github.com/ros2/rcl/issues/545&quot;&gt;Move security related filesystem and env utilities outside rcl · Issue #545 · ros2/rcl&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Some environments do not have file systems; enabling security currently requires files. Original ask was to remove security from RCL to avoid file system dependencies.&lt;/li&gt;
+&lt;li&gt;In order to address the broader design issue, should we consider a system-wide build flag to identify devices without file systems?&lt;/li&gt;
+&lt;li&gt;Specific to SROS2, consider enabling security files as a run-time variable or even built in at compile time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Continuing to address issue with overly large permissions files
+&lt;ul&gt;
+&lt;li&gt;Tracking an open issue with OMG, proposal is to allow compressing permissions file.&lt;/li&gt;
+&lt;li&gt;Looking into uglifying files and possible other options.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Curated the SROS2 API to &lt;a href=&quot;https://github.com/ros2/sros2/pull/241&quot;&gt;only expose limited parts&lt;/a&gt; to the public.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/ROS2/WorkingGroups/Security#A2020-09-22&quot;&gt;Meeting minutes&lt;/a&gt; with link to meeting recordings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[Blasdel] Tooling
+&lt;ul&gt;
+&lt;li&gt;Discussed RViz2 design / development - decided that until there is dedicated development resources, any design discussions are likely to go stale and not have much value
+&lt;ul&gt;
+&lt;li&gt;Though it’s an interesting discussion and a valuable project, we don’t currently have bandwidth to take on any project management there, even if we did have willing contributors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Deprecating some unused (only used by AWS team) Github Actions
+&lt;ul&gt;
+&lt;li&gt;action-amazon-chime&lt;/li&gt;
+&lt;li&gt;action-pypi&lt;/li&gt;
+&lt;li&gt;action-ros-ci-template&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Upcoming breakout session to discuss “REP-2001: ROS2 Minimal C++ cross-compilable variant”
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ros-infrastructure/rep/pull/231&quot;&gt;https://github.com/ros-infrastructure/rep/pull/231&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Planning a survey of ROS/ROS 2 CI solutions with feature comparison, to drive future potential consolidation (ros-tooling actions, industrial CI, navigation2 CircleCI, OSRF buildfarm PR runners)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[Woodall] Middleware
+&lt;ul&gt;
+&lt;li&gt;Agenda, notes, and recordings:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1pdPdcBk2YcR0IpmslDN07WGbhNU3WIaz-UBh2sDW_P0/edit?ts=5f85f10f&quot;&gt;https://docs.google.com/document/d/1pdPdcBk2YcR0IpmslDN07WGbhNU3WIaz-UBh2sDW_P0/edit?ts=5f85f10f&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Discussed idea to have a single rmw implementation common to all DDS implementations using the C++ DDS API
+&lt;ul&gt;
+&lt;li&gt;There were pro/cons and caveats, see the agenda notes for details&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Discussed idea to go straight to DDS and avoid the rmw abstraction
+&lt;ul&gt;
+&lt;li&gt;Details in agenda notes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Progress reports on report being generated for TSC to vote on the default rmw implementation to be used in Galactic
+&lt;ul&gt;
+&lt;li&gt;Data collection is ongoing, survey is out until Oct. 16th, will have draft ready for the working group on the 21st&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Presentation about, and discussion of, the OMG DDS C++ PSM&lt;/li&gt;
+&lt;li&gt;Questions about how the tier level of rmw implementations (in REP-2000) are affected, and how to eventually replace the rmw implementation for Connext&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+            &lt;p&gt;&lt;small&gt;3 posts - 2 participants&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/ros-2-tsc-meeting-minutes-2020-10-15/16849&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Fri, 16 Oct 2020 22:56:16 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: ROS News for the Week of 10/12/2020</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16845</guid>
+	<link>https://discourse.ros.org/t/ros-news-for-the-week-of-10-12-2020/16845</link>
+	<description>&lt;p&gt;&lt;img alt=&quot;image&quot; height=&quot;262&quot; src=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/c/c8335f0920a72e1bae8a924040a82bdb8a248f81.png&quot; width=&quot;427&quot; /&gt;&lt;br /&gt;
+&lt;a href=&quot;https://twitter.com/facontidavide/status/1316091628671635458&quot;&gt;source&lt;/a&gt;, &lt;a href=&quot;https://xkcd.com/303/&quot;&gt;original.&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;/p&gt;&lt;div class=&quot;lightbox-wrapper&quot;&gt;&lt;a class=&quot;lightbox&quot; href=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/4/489fa31fb5f73c3bc477aaee2d057dea81585f7e.jpeg&quot; title=&quot;image&quot;&gt;&lt;img alt=&quot;image&quot; height=&quot;291&quot; src=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/optimized/2X/4/489fa31fb5f73c3bc477aaee2d057dea81585f7e_2_517x291.jpeg&quot; width=&quot;517&quot; /&gt;&lt;div class=&quot;meta&quot;&gt;&lt;svg class=&quot;fa d-icon d-icon-far-image svg-icon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;use&gt;&lt;/use&gt;&lt;/svg&gt;&lt;span class=&quot;filename&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;informations&quot;&gt;1920Ã—1080 262 KB&lt;/span&gt;&lt;svg class=&quot;fa d-icon d-icon-discourse-expand svg-icon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;use&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;a href=&quot;https://twitter.com/IndyAChallenge/status/1316886272686907395&quot;&gt;Indy Autonomous Challenge is starting to heat up.&lt;/a&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h1&gt;ROS News for the Week of 10/12/2020&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;ROS WORLD&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://roscon.ros.org/world/2020/&quot;&gt;&lt;em&gt;REGISTER FOR &lt;img alt=&quot;:ros:&quot; class=&quot;emoji emoji-custom&quot; src=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/4/45531b551e689d82d6aec0344860112aeeea2d7b.png?v=9&quot; title=&quot;:ros:&quot; /&gt;  WORLD&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/ros-world-sponsors-t-shirts/16449&quot;&gt;Buy a ROS World T-Shirt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/ros-world-program-announced/16542&quot;&gt;Check out the ROS World Schedule&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;News&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://theamphour.com/511-brewing-electronics-with-eli-hughes/&quot;&gt;Eli Hughes on the Amp Hour discussing Zephyr and other RTOSs (relevant to micro ROS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://robohub.org/30-women-in-robotics-you-need-to-know-about-2020/&quot;&gt;I might be on a list of women in robotics.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?feature=youtu.be&amp;amp;v=x2jYQdjT_es&amp;amp;app=desktop&amp;amp;ab_channel=OpenDynamicRobotInitiative&quot;&gt;Open Source Dynamic Biped&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.businesswire.com/news/home/20201015005327/en/Agility-Robotics-Raises-20-Million-to-Build-and-Deploy-Humanoid-Robots-for-Work-in-Human-Spaces/&quot;&gt;Agility Robotics Raises $20M&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://craffic.co.in/robot-dolphin-end-of-captive-animals-at-theme-parks/&quot;&gt;Uncanny Valley of Robot Dolphins&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Events&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://rosindustrial.org/rosindustrial-conference-2020&quot;&gt;8th ROS-Industrial Conference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSf8m-DWeeAhHTHmnnzQvdpPyM6hRnqua1n9toHiNBMlu137qw/viewform&quot;&gt;Intro to Robotics Workshop for Black Women in AI week&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://community.gazebosim.org/t/hacktoberfest-ignition-meetup-the-d-day/698&quot;&gt;Ignition Meetup for Hacktoberfest next Saturday&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/UVjqFCY-YTk&quot;&gt;Ignition Community Meeting Video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://2020.allthingsopen.org/sessions/highly-customizable-open-source-robot-simulation/&quot;&gt;All Things Open: Highly Customizable Open Source Robot Simulation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;ROS Packages&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/micro-ros-meets-moveit/16836&quot;&gt;MicroROS meets MoveIt Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.theconstructsim.com/78-everything-about-moveit-with-dave-coleman/&quot;&gt;Dave Coleman on ROS Developers Podcast&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://roboticsbackend.com/ros2-bag-save-and-replay-topic-data/&quot;&gt;ROS 2 Bag Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://vimeo.com/351293877&quot;&gt;ROS2AR ROSIN Technical Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.modalai.com/pages/ros-drone&quot;&gt;VOXL m500 Drone Ships with ROS/MavROS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/ThiloZimmermann/status/1315911640907427840&quot;&gt;ROS Industrial Video Competition Still Open&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@rahulbhadani/reading-ros-messages-from-a-bagfile-in-python-b006538bb520&quot;&gt;Python Library for ROS Bag Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.eventbrite.de/e/rosin-ftp-webinar-session-3-tickets-121384744037https://www.eventbrite.de/e/rosin-ftp-webinar-session-3-tickets-121384744037&quot;&gt;ROSIN FTP Event Oct 22&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/new-packages-for-ros-2-rolling-ridley-2020-10-12/16789&quot;&gt;ROS 2 Rolling Update Released&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/wenbowen123/icra20-hand-object-pose&quot;&gt;ICRA 2020: Robust, Occlusion-aware Pose Estimation for Objects Grasped by&lt;br /&gt;
+Adaptive Hands ROS Pakcage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/new-packages-and-patch-release-for-foxy-fitzroy-2020-10-09/16760&quot;&gt;ROS 2: Foxy Update&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/new-packages-for-melodic-2020-10-12/16781&quot;&gt;ROS Melodic Update&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/OpenRoboticsOrg/status/1315701146145579009&quot;&gt;Thinking ahead to ROSCon 2021&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/new-video-moveit-capabilities-overview/16840&quot;&gt;What can MoveIt Do&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/introducing-new-ros2-middleware-layer/16805&quot;&gt;A New ROS2 Middleware Option&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/announcing-moveit-1-1-1-release-for-ros-noetic/16802&quot;&gt;MoveIt 1.1.1 Released&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Questions / Discussion&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html&quot;&gt;Chrome ends https loophole&lt;/a&gt;, what does it mean for &lt;a href=&quot;https://twitter.com/jonemo/status/1316637122154000384&quot;&gt;Robot Web Tools over https?&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://answers.ros.org/question/363385/releasing-pre-built-ros2-packages-for-windowsmacos/&quot;&gt;How to Bloom for Windows and Mac?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://answers.ros.org/question/363197/ros-u-net-usage-error/&quot;&gt;ROS Unet Usage Error&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+            &lt;p&gt;&lt;small&gt;5 posts - 3 participants&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/ros-news-for-the-week-of-10-12-2020/16845&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Fri, 16 Oct 2020 18:03:41 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: Community meeting: Ignition and ROS</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16841</guid>
+	<link>https://discourse.ros.org/t/community-meeting-ignition-and-ros/16841</link>
+	<description>&lt;p&gt;Hi ROS community!&lt;/p&gt;
+&lt;p&gt;The simulation team at Open Robotics started hosting monthly &lt;a href=&quot;https://community.gazebosim.org/t/announcing-ignition-community-meetings/657&quot;&gt;meetings&lt;/a&gt; with the community in order to  give visibility into our development process and roadmap, strengthen collaboration with community members outside of Open Robotics, as well as offer a space for anyone to provide feedback.&lt;/p&gt;
+&lt;p&gt;Next month’s topic will be the integration between Gazebo’s next generation, Ignition Gazebo, and ROS (1 and 2), so we’re cross-posting the &lt;a href=&quot;https://community.gazebosim.org/t/ignition-community-meeting-november-2020/702&quot;&gt;announcement&lt;/a&gt; here:&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img alt=&quot;:clock3:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/clock3.png?v=9&quot; title=&quot;:clock3:&quot; /&gt; &lt;strong&gt;Date&lt;/strong&gt;: &lt;span class=&quot;discourse-local-date&quot;&gt;2020-11-10T23:00:00Z&lt;/span&gt;&lt;br /&gt;
+&lt;img alt=&quot;:desktop_computer:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/desktop_computer.png?v=9&quot; title=&quot;:desktop_computer:&quot; /&gt; &lt;strong&gt;Place&lt;/strong&gt;: &lt;a href=&quot;https://meet.google.com/nnt-pnbh-iby&quot;&gt;Google Meet&lt;/a&gt;&lt;br /&gt;
+&lt;img alt=&quot;:calendar:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/calendar.png?v=9&quot; title=&quot;:calendar:&quot; /&gt; &lt;strong&gt;Event&lt;/strong&gt;: &lt;a href=&quot;https://calendar.google.com/event?action=TEMPLATE&amp;amp;tmeid=NGlncmZlcWZhM2RrMHVjbm5rbGJqcXJxMjAgY19xa2dsODhraTluMTVhYmtrYzdjdjRyMTMza0Bn&amp;amp;tmsrc=c_qkgl88ki9n15abkkc7cv4r133k%40group.calendar.google.com&quot;&gt;Calendar event&lt;/a&gt;&lt;br /&gt;
+&lt;img alt=&quot;:mag_right:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/mag_right.png?v=9&quot; title=&quot;:mag_right:&quot; /&gt; &lt;strong&gt;Topic&lt;/strong&gt;: &lt;em&gt;Ignition integration with ROS 1 and 2&lt;/em&gt;&lt;br /&gt;
+&lt;img alt=&quot;:spiral_notepad:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/spiral_notepad.png?v=9&quot; title=&quot;:spiral_notepad:&quot; /&gt; &lt;strong&gt;Agenda&lt;/strong&gt;:  Everyone is welcome to add items to the &lt;a href=&quot;https://docs.google.com/document/d/1rJpGluIZtnuKxDHqykwFHfHnjMsQnrvhH0IVtDkyn6s/edit?usp=sharing&quot;&gt;agenda&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As always, the meeting will be recorded and posted on the &lt;a href=&quot;https://www.youtube.com/playlist?list=PL6FI-gIL5jiGlch_uoSVNhCFaZb9eoj1J&quot;&gt;community meetings playlist&lt;/a&gt; on the GazeboSim YouTube channel.&lt;/p&gt;
+&lt;p&gt;Be sure to subscribe to the &lt;a href=&quot;https://calendar.google.com/calendar/u/0?cid=Y19xa2dsODhraTluMTVhYmtrYzdjdjRyMTMza0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&quot;&gt;Ignition community calendar&lt;/a&gt; to receive invitations the meeting every month.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Here are some recent posts about Ignition that ROS users may be interested in reading beforehand:&lt;/p&gt;
+&lt;aside class=&quot;quote quote-modified&quot;&gt;
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;div class=&quot;quote-controls&quot;&gt;&lt;/div&gt;
+    &lt;img alt=&quot;&quot; class=&quot;avatar&quot; height=&quot;20&quot; src=&quot;https://discourse.ros.org/user_avatar/discourse.ros.org/chapulina/40/1637_2.png&quot; width=&quot;20&quot; /&gt;
+    &lt;a href=&quot;https://discourse.ros.org/t/ignition-gazebo-simulator-for-noetic-and-foxy/16262&quot;&gt;&lt;img alt=&quot;fire&quot; class=&quot;emoji&quot; height=&quot;20&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/fire.png?v=9&quot; title=&quot;fire&quot; width=&quot;20&quot; /&gt; Ignition Gazebo Simulator for Noetic and Foxy&lt;/a&gt; &lt;a class=&quot;badge-wrapper  bullet&quot; href=&quot;https://discourse.ros.org/c/general/8&quot;&gt;&lt;span class=&quot;badge-category-bg&quot; style=&quot;background-color: #0E76BD;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;badge-category clear-badge&quot; title=&quot;News and general discussion about ROS. Kind of like the “ros-users” of discourse.ros.org. If you have a question: Please ask on http://answers.ros.org following our support guidelines. This is not the right place.&quot;&gt;General&lt;/span&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;blockquote&gt;
+    The simulation team at Open Robotics is happy to announce the release of Ignition integrations for ROS Noetic and Foxy! ROS users have easy access to Ignition Citadel, which is Ignition’s first 5-year LTS, to be supported until 2025. 
+ &lt;a class=&quot;lightbox&quot; href=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/c/c750f1c2f3dfa28aa5126e896ea6cde71c78ea0b.jpeg&quot; title=&quot;image&quot;&gt;[image]&lt;/a&gt; 
+Gazebo’s next generation
+&lt;a href=&quot;https://ignitionrobotics.org/&quot;&gt;Ignition&lt;/a&gt; is the next generation of the &lt;a href=&quot;http://gazebosim.org/&quot;&gt;Gazebo&lt;/a&gt; simulator, with an updated architecture and new features that are aimed at improving your simulation experience. Some of Ignition’s new features are: 
+
+Plugin-based &lt;a href=&quot;https://ignitionrobotics.org/api/gazebo/3.2/physics.html&quot;&gt;physics&lt;/a&gt; and renderi…
+  &lt;/blockquote&gt;
+&lt;/aside&gt;
+
+&lt;aside class=&quot;quote quote-modified&quot;&gt;
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;div class=&quot;quote-controls&quot;&gt;&lt;/div&gt;
+    &lt;img alt=&quot;&quot; class=&quot;avatar&quot; height=&quot;20&quot; src=&quot;https://discourse.ros.org/user_avatar/discourse.ros.org/katherine_scott/40/4434_2.png&quot; width=&quot;20&quot; /&gt;
+    &lt;a href=&quot;https://discourse.ros.org/t/ignition-dome-released-t-shirts-for-sale/16631&quot;&gt;Ignition Dome Released! T-Shirts for Sale&lt;/a&gt; &lt;a class=&quot;badge-wrapper  bullet&quot; href=&quot;https://discourse.ros.org/c/general/8&quot;&gt;&lt;span class=&quot;badge-category-bg&quot; style=&quot;background-color: #0E76BD;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;badge-category clear-badge&quot; title=&quot;News and general discussion about ROS. Kind of like the “ros-users” of discourse.ros.org. If you have a question: Please ask on http://answers.ros.org following our support guidelines. This is not the right place.&quot;&gt;General&lt;/span&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;blockquote&gt;
+    &lt;a class=&quot;lightbox&quot; href=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/a/a93b0e4cf91d29f78661de9efbaaacfad2c17bbd.png&quot; title=&quot;&quot;&gt;[image]&lt;/a&gt; 
+&lt;a href=&quot;https://ignitionrobotics.org/docs/dome/install&quot;&gt;Get started with these instructions.&lt;/a&gt; 
+ 
+The simulation team at Open Robotics is happy to announce another major release of Ignition, code named Dome! This is the fourth major release of Ignition, following Citadel, Blueprint and Acropolis. 
+Dome is a short-term release supported until December 2021. 
+Here are a few highlights since Citadel’s release 9 months ago: 
+
+
+GUI : Lots of new GUI features and widgets
+
+
+Customizable layout : &lt;a href=&quot;https://ignitionrobotics.org/api/gazebo/4.0/gui_config.html&quot;&gt;Customize&lt;/a&gt; the graphical interface to your own needs an…
+  &lt;/blockquote&gt;
+&lt;/aside&gt;
+
+&lt;aside class=&quot;quote quote-modified&quot;&gt;
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;div class=&quot;quote-controls&quot;&gt;&lt;/div&gt;
+    &lt;img alt=&quot;&quot; class=&quot;avatar&quot; height=&quot;20&quot; src=&quot;https://discourse.ros.org/user_avatar/discourse.ros.org/ruffsl/40/83_2.png&quot; width=&quot;20&quot; /&gt;
+    &lt;a href=&quot;https://discourse.ros.org/t/thoughts-on-ignition-gazebo-simulator-and-ros2-bridge/16477&quot;&gt;Thoughts on Ignition Gazebo Simulator and ROS2 bridge&lt;/a&gt; 
+  &lt;/div&gt;
+  &lt;blockquote&gt;
+    First, excellent work from the Ignition Dev Team, and congrats on the new release of Citadel! 
+
+
+Reading through the feature comparison between this and Gazebo-classic version 11 and the status of their migration to Ignition Citadel, I noticed the new approach for ROS integration: 
+
+ROS integration with Ignition will be done primarily via a transport bridge instead of plugins, contained in the ros_ign package. 
+&lt;a href=&quot;https://ignitionrobotics.org/docs/citadel/comparison#ros-integration&quot;&gt;https://ignitionrobotics.org/docs/citadel/comparison#ros-integration&lt;/a&gt; 
+
+
+ros_ign_bridg…
+  &lt;/blockquote&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;See you at the community meeting!&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;:fire:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/fire.png?v=9&quot; title=&quot;:fire:&quot; /&gt; &lt;em&gt;The Ignition Dev Team&lt;/em&gt; &lt;img alt=&quot;:fire:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/fire.png?v=9&quot; title=&quot;:fire:&quot; /&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;1 post - 1 participant&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/community-meeting-ignition-and-ros/16841&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Thu, 15 Oct 2020 21:53:59 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: Migration of docs.ros.org content into `/en` prefix</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16829</guid>
+	<link>https://discourse.ros.org/t/migration-of-docs-ros-org-content-into-en-prefix/16829</link>
+	<description>&lt;p&gt;As part of our ongoing efforts to upgrade the documentation on &lt;a href=&quot;http://ros.org&quot;&gt;ros.org&lt;/a&gt; we are going to be migrating all existing content on &lt;a href=&quot;http://docs.ros.org&quot;&gt;docs.ros.org&lt;/a&gt; to use the en prefix to indicate that the content is English language and leave space for potential future internationalization efforts.&lt;/p&gt;
+&lt;p&gt;There are a number of directories on &lt;a href=&quot;http://docs.ros.org&quot;&gt;docs.ros.org&lt;/a&gt; they will all be moved to the &lt;code&gt;/en&lt;/code&gt; prefix and http redirects will be setup to provide backwards compatibility for all urls from those directories.&lt;/p&gt;
+&lt;p&gt;The work is planned for late morning in California. There is not expected to be any significant outage between moving the directories and enabling the redirects.&lt;/p&gt;
+&lt;p&gt;After the changeover we will be &lt;a href=&quot;https://github.com/ros-infrastructure/ros_buildfarm_config/pull/184&quot;&gt;reconfiguring all of the documentation jobs&lt;/a&gt; to use the new urls. This process will take a several hours and in the mean time symlinks will be maintained to ensure continuity.&lt;/p&gt;
+&lt;p&gt;And we are also going to be updating the services that we’ve identified as directly accessing the content including&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/ros-infrastructure/roswiki/pull/320&quot;&gt;wiki.ros.org changes&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/ros-infrastructure/rosindex/pull/240&quot;&gt;index.ros.org changes&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you find any other resources which need updating please let us know here and we’ll make sure to resolve it.&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;3 posts - 2 participants&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/migration-of-docs-ros-org-content-into-en-prefix/16829&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Thu, 15 Oct 2020 09:24:19 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: Hacktoberfest Ignition Meetup</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16821</guid>
+	<link>https://discourse.ros.org/t/hacktoberfest-ignition-meetup/16821</link>
+	<description>&lt;p&gt;Hello Gazebo Community,&lt;/p&gt;
+&lt;p&gt;Finally, the &lt;a href=&quot;https://community.gazebosim.org/t/hacktoberfest-ignition-meetup/684/3&quot; rel=&quot;noopener nofollow ugc&quot;&gt;collaboration meetup&lt;/a&gt; is arriving. In the enthusiastic atmosphere of the &lt;img alt=&quot;:tada:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/tada.png?v=9&quot; title=&quot;:tada:&quot; /&gt;  &lt;a href=&quot;https://hacktoberfest.digitalocean.com/&quot; rel=&quot;noopener nofollow ugc&quot;&gt;Hacktoberfest&lt;/a&gt; &lt;img alt=&quot;:tada:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/tada.png?v=9&quot; title=&quot;:tada:&quot; /&gt;  let’s be together, learning and collaborating with this amazing &lt;img alt=&quot;:fire:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/fire.png?v=9&quot; title=&quot;:fire:&quot; /&gt; Ignition project and &lt;img alt=&quot;:fire:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/fire.png?v=9&quot; title=&quot;:fire:&quot; /&gt;  make it possible to pick a really cool T-shirt.&lt;/p&gt;
+&lt;p&gt;The idea of this event is to get the Gazebo community closer, increasing our knowledge and connections. It’ll be a really nice opportunity for those that always want to collaborate with an Open Source Project and didn’t know how to start. Having other contributors together make it easier to get some hints, ask some doubts, or even overcome some “mystic” compilation problems that always happen &lt;img alt=&quot;:mage:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/mage.png?v=9&quot; title=&quot;:mage:&quot; /&gt; &lt;img alt=&quot;:woman_mage:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/woman_mage.png?v=9&quot; title=&quot;:woman_mage:&quot; /&gt;. Not to mention it’s a lot more fun hacking together &lt;img alt=&quot;:partying_face:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/partying_face.png?v=9&quot; title=&quot;:partying_face:&quot; /&gt; &lt;img alt=&quot;:tada:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/tada.png?v=9&quot; title=&quot;:tada:&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;General Information&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;strong&gt;Date:&lt;/strong&gt; 17/10/2020 (Next Saturday)&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Local:&lt;/strong&gt; Discord server (&lt;a href=&quot;https://discord.gg/DKKqSKk&quot; rel=&quot;noopener nofollow ugc&quot;&gt;https://discord.gg/DKKqSKk&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; &lt;span class=&quot;discourse-local-date&quot;&gt;2020-10-17T13:00:00Z&lt;/span&gt; → &lt;span class=&quot;discourse-local-date&quot;&gt;2020-10-17T21:00:00Z&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Schedule:&lt;/strong&gt;&lt;br /&gt;
+[10:00] [Welcome and Networking]&lt;br /&gt;
+[11:00] [Open Source Collaboration Talk]&lt;br /&gt;
+[12:00] [Start Hacking]&lt;br /&gt;
+[13:30] [Yoga break]&lt;br /&gt;
+[13:50] [Hacking 2 - Keeping going]&lt;br /&gt;
+[17:30] [Finishing The First Step]&lt;br /&gt;
+[18:00] [The End/ To be Continued]&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;strong&gt;“Open Source Talk”&lt;/strong&gt; will be presented by &lt;a class=&quot;mention&quot; href=&quot;https://discourse.ros.org/u/mohamed_ahmed&quot;&gt;@Mohamed_Ahmed&lt;/a&gt;, who had a nice experience to be an intern from Open Robotics and worked with the Ignition in the Google Summer of Code doing really &lt;a href=&quot;https://community.gazebosim.org/t/gsoc-2020-new-ignition-gazebo-demos/613&quot; rel=&quot;noopener nofollow ugc&quot;&gt;nice demos&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If it’ll be your first time some suggestions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Take a look at the &lt;a href=&quot;https://ignitionrobotics.org/docs/all/contributing&quot; rel=&quot;noopener nofollow ugc&quot;&gt;Igniton Contributing guide&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;To collaborate you need to have the project that you want to make collaboration installed from source. If you wanna install the entire Ignition project, take a look at this &lt;a href=&quot;https://ignitionrobotics.org/docs/edifice/install_ubuntu_src&quot; rel=&quot;noopener nofollow ugc&quot;&gt;tutorial&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;See some issues that you’d like to work on. The tag &lt;code&gt;good first issue&lt;/code&gt; is a good reference. Here some suggestions:
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/ignitionrobotics/ign-math/issues/76&quot; rel=&quot;noopener nofollow ugc&quot;&gt;Many objects are not std::move-able&lt;/a&gt; - Ignition-math&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/ignitionrobotics/ign-math/issues/71&quot; rel=&quot;noopener nofollow ugc&quot;&gt;Add functions from Vector3 to Vector2 and Vector4&lt;/a&gt; - Ignition-math&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/ignitionrobotics/ign-math/issues/64&quot; rel=&quot;noopener nofollow ugc&quot;&gt;error printing vectors with ±inf [gazebo issue 2020] &lt;/a&gt; - Ignition-math&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/ignitionrobotics/docs/issues/96&quot; rel=&quot;noopener nofollow ugc&quot;&gt;Windows installation instructions  &lt;/a&gt; - Ignition-docs&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/ignitionrobotics/docs/issues/57&quot; rel=&quot;noopener nofollow ugc&quot;&gt;Document high-level system architecture &lt;/a&gt; - Ignition-docs&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/ignitionrobotics/docs/issues/56&quot; rel=&quot;noopener nofollow ugc&quot;&gt;Indicate collection version for each library version&lt;/a&gt; - Ignition-docs&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/ignitionrobotics/ign-gazebo/issues/174&quot; rel=&quot;noopener nofollow ugc&quot;&gt;Copy pose button on Component inspector &lt;/a&gt; - Ignition-gazebo&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/ignitionrobotics/ign-gazebo/issues/28&quot; rel=&quot;noopener nofollow ugc&quot;&gt;Fix levels documentation &lt;/a&gt; - Ignition-gazebo&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/ignitionrobotics/ign-gazebo/issues/313&quot; rel=&quot;noopener nofollow ugc&quot;&gt;Model info CLI &lt;/a&gt; - Ignition-gazebo&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Looking forward to meeting you there. I, &lt;a class=&quot;mention&quot; href=&quot;https://discourse.ros.org/u/ximenes&quot;&gt;@ximenes&lt;/a&gt;, and &lt;a class=&quot;mention&quot; href=&quot;https://discourse.ros.org/u/mohamed_ahmed&quot;&gt;@Mohamed_Ahmed&lt;/a&gt; will be more than happy to know you!&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;2 posts - 1 participant&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/hacktoberfest-ignition-meetup/16821&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Thu, 15 Oct 2020 01:36:21 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: ROS on Windows: Noetic Release v20201009.0.0.2010132325</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16817</guid>
+	<link>https://discourse.ros.org/t/ros-on-windows-noetic-release-v20201009-0-0-2010132325/16817</link>
+	<description>&lt;p&gt;The Microsoft Azure Edge Robotics team is happy to announce another Noetic Release v20201009.0.0.2010132325 for Windows developers.&lt;/p&gt;
+&lt;p&gt;As usual, you can install it by the following steps:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-auto&quot;&gt;mkdir c:\opt\chocolatey
+set ChocolateyInstall=c:\opt\chocolatey
+choco source add -n=ros-win -s=&quot;https://aka.ms/ros/public&quot; --priority=1
+choco upgrade ros-noetic-desktop_full -y --execution-timeout=0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Some highlights of this release:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Based on the &lt;a href=&quot;https://discourse.ros.org/t/new-packages-for-noetic-2020-10-09/16758&quot;&gt;Noetic release sync 2020-10-09&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Enabled packages:
+&lt;ul&gt;
+&lt;li&gt;Desktop_full&lt;/li&gt;
+&lt;li&gt;MoveIt&lt;/li&gt;
+&lt;li&gt;Navigation&lt;/li&gt;
+&lt;li&gt;ROSBridge_suite&lt;/li&gt;
+&lt;li&gt;SLAM
+&lt;ul&gt;
+&lt;li&gt;Cartographer&lt;/li&gt;
+&lt;li&gt;OpenKarto&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Libraries and Python:
+&lt;ul&gt;
+&lt;li&gt;Boost 1.73.0&lt;/li&gt;
+&lt;li&gt;CMake 3.18.2&lt;/li&gt;
+&lt;li&gt;EmPY 3.3.4&lt;/li&gt;
+&lt;li&gt;Gazebo 10.2.0&lt;/li&gt;
+&lt;li&gt;OGRE 1.12.7&lt;/li&gt;
+&lt;li&gt;OpenCV 4.3.0&lt;/li&gt;
+&lt;li&gt;OpenSSL 1.1.1g&lt;/li&gt;
+&lt;li&gt;PCL 1.9.1&lt;/li&gt;
+&lt;li&gt;Poco 1.9.2&lt;/li&gt;
+&lt;li&gt;Python 3.8.3 (embeddable distribution)&lt;/li&gt;
+&lt;li&gt;Qt 5.15.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Love your feedback and let us know on &lt;a href=&quot;https://github.com/ms-iot/rosonwindows/issues&quot; rel=&quot;noopener nofollow ugc&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Also check out &lt;a href=&quot;https://aka.ms/ros&quot; rel=&quot;noopener nofollow ugc&quot;&gt;https://aka.ms/ros&lt;/a&gt; for ROS related components from Microsoft and partners which are supported on Linux and Windows. And more getting started tutorials on &lt;a href=&quot;https://aka.ms/ros/docs&quot; rel=&quot;noopener nofollow ugc&quot;&gt;https://aka.ms/ros/docs&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Happy coding ROS Developers! &lt;img alt=&quot;:muscle:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/muscle.png?v=9&quot; title=&quot;:muscle:&quot; /&gt;&lt;img alt=&quot;:muscle:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/muscle.png?v=9&quot; title=&quot;:muscle:&quot; /&gt;&lt;img alt=&quot;:muscle:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/muscle.png?v=9&quot; title=&quot;:muscle:&quot; /&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;1 post - 1 participant&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/ros-on-windows-noetic-release-v20201009-0-0-2010132325/16817&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Wed, 14 Oct 2020 17:52:22 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: Introducing new ROS2 middleware layer</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16805</guid>
+	<link>https://discourse.ros.org/t/introducing-new-ros2-middleware-layer/16805</link>
+	<description>&lt;p&gt;Even it’s still in a pre-release version we are happy to announce a new, fully open source ROS2 middleware layer &lt;a href=&quot;https://github.com/continental/rmw_ecal&quot; rel=&quot;noopener nofollow ugc&quot;&gt;rmw_ecal&lt;/a&gt; based on Continentals publish / subscribe framework &lt;a href=&quot;https://github.com/continental/ecal&quot; rel=&quot;noopener nofollow ugc&quot;&gt;eCAL&lt;/a&gt;. It runs stable on Windows and Linux OS and should perform very well because it’s using eCAL’s shared memory ipc implementation.&lt;/p&gt;
+&lt;p&gt;We would be happy if anyone could do some review or testing so that we get feedback from experienced ROS2 developers. Foxy support is planned with the next (none pre-) release 0.5.&lt;/p&gt;
+&lt;p&gt;Finally - if their is a community interest - it would be great to get some guidance how to become an official ROS package.&lt;/p&gt;
+&lt;p&gt;How to build and install the rmw is documented on the projects &lt;a href=&quot;https://github.com/continental/rmw_ecal&quot; rel=&quot;noopener nofollow ugc&quot;&gt;github page&lt;/a&gt;, how to install and use the eCAL communication backbone is described &lt;a href=&quot;https://continental.github.io/ecal/&quot; rel=&quot;noopener nofollow ugc&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Best regards, ReX&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;1 post - 1 participant&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/introducing-new-ros2-middleware-layer/16805&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Tue, 13 Oct 2020 17:58:12 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: New packages for Kinetic Kame 2020-10-13</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16804</guid>
+	<link>https://discourse.ros.org/t/new-packages-for-kinetic-kame-2020-10-13/16804</link>
+	<description>&lt;p&gt;We’re happy to announce 53 updated packages and one new package for Kinetic Kame&lt;/p&gt;
+&lt;p&gt;Thank you to all the package maintainers and contributors who helped make these packages available!&lt;/p&gt;
+&lt;h2&gt;Package Updates for kinetic&lt;/h2&gt;
+&lt;h3&gt;Added Packages [1]:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ros-kinetic-audio-to-spectrogram: 1.2.15-1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Updated Packages [53]:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://jsk-docs.readthedocs.io/projects/jsk_recognition/en/latest/checkerboard_detector&quot;&gt;ros-kinetic-checkerboard-detector&lt;/a&gt;: 1.2.9-0 -&amp;gt; 1.2.15-1&lt;/li&gt;
+&lt;li&gt;ros-kinetic-cloudwatch-logs-common: 1.1.3-1 -&amp;gt; 1.1.4-1&lt;/li&gt;
+&lt;li&gt;ros-kinetic-cloudwatch-metrics-common: 1.1.3-1 -&amp;gt; 1.1.4-1&lt;/li&gt;
+&lt;li&gt;ros-kinetic-costmap-cspace: 0.10.1-1 -&amp;gt; 0.10.2-1&lt;/li&gt;
+&lt;li&gt;ros-kinetic-dataflow-lite: 1.1.3-1 -&amp;gt; 1.1.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/dynamixel_workbench&quot;&gt;ros-kinetic-dynamixel-workbench&lt;/a&gt;: 2.0.0-0 -&amp;gt; 2.2.0-0&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/dynamixel_workbench_controllers&quot;&gt;ros-kinetic-dynamixel-workbench-controllers&lt;/a&gt;: 2.0.0-0 -&amp;gt; 2.2.0-0&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/dynamixel_workbench_operators&quot;&gt;ros-kinetic-dynamixel-workbench-operators&lt;/a&gt;: 2.0.0-0 -&amp;gt; 2.2.0-0&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/dynamixel_workbench_toolbox&quot;&gt;ros-kinetic-dynamixel-workbench-toolbox&lt;/a&gt;: 2.0.0-0 -&amp;gt; 2.2.0-0&lt;/li&gt;
+&lt;li&gt;ros-kinetic-file-management: 1.1.3-1 -&amp;gt; 1.1.4-1&lt;/li&gt;
+&lt;li&gt;ros-kinetic-fkie-potree-rviz-plugin: 1.0.0-0 -&amp;gt; 1.0.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_base&quot;&gt;ros-kinetic-husky-base&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_bringup&quot;&gt;ros-kinetic-husky-bringup&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_control&quot;&gt;ros-kinetic-husky-control&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_description&quot;&gt;ros-kinetic-husky-description&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_desktop&quot;&gt;ros-kinetic-husky-desktop&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_gazebo&quot;&gt;ros-kinetic-husky-gazebo&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_msgs&quot;&gt;ros-kinetic-husky-msgs&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_navigation&quot;&gt;ros-kinetic-husky-navigation&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_robot&quot;&gt;ros-kinetic-husky-robot&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_simulator&quot;&gt;ros-kinetic-husky-simulator&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_viz&quot;&gt;ros-kinetic-husky-viz&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://jsk-docs.readthedocs.io/projects/jsk_recognition/en/latest/imagesift&quot;&gt;ros-kinetic-imagesift&lt;/a&gt;: 1.2.9-0 -&amp;gt; 1.2.15-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/jackal_control&quot;&gt;ros-kinetic-jackal-control&lt;/a&gt;: 0.6.6-1 -&amp;gt; 0.6.7-1&lt;/li&gt;
+&lt;li&gt;ros-kinetic-jackal-description: 0.6.6-1 -&amp;gt; 0.6.7-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/jackal_msgs&quot;&gt;ros-kinetic-jackal-msgs&lt;/a&gt;: 0.6.6-1 -&amp;gt; 0.6.7-1&lt;/li&gt;
+&lt;li&gt;ros-kinetic-jackal-navigation: 0.6.6-1 -&amp;gt; 0.6.7-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/jackal_msgs&quot;&gt;ros-kinetic-jackal-tutorials&lt;/a&gt;: 0.6.6-1 -&amp;gt; 0.6.7-1&lt;/li&gt;
+&lt;li&gt;ros-kinetic-joystick-interrupt: 0.10.1-1 -&amp;gt; 0.10.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://jsk-docs.readthedocs.io/projects/jsk_recognition/en/latest/jsk_pcl_ros&quot;&gt;ros-kinetic-jsk-pcl-ros&lt;/a&gt;: 1.2.9-0 -&amp;gt; 1.2.15-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://jsk-docs.readthedocs.io/projects/jsk_recognition/en/latest/jsk_pcl_ros_utils&quot;&gt;ros-kinetic-jsk-pcl-ros-utils&lt;/a&gt;: 1.2.9-0 -&amp;gt; 1.2.15-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://jsk-docs.readthedocs.io/projects/jsk_recognition/en/latest/jsk_perception&quot;&gt;ros-kinetic-jsk-perception&lt;/a&gt;: 1.2.9-0 -&amp;gt; 1.2.15-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/jsk_recognition&quot;&gt;ros-kinetic-jsk-recognition&lt;/a&gt;: 1.2.9-0 -&amp;gt; 1.2.15-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://jsk-docs.readthedocs.io/projects/jsk_recognition/en/latest/jsk_recognition_msgs&quot;&gt;ros-kinetic-jsk-recognition-msgs&lt;/a&gt;: 1.2.9-0 -&amp;gt; 1.2.15-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://jsk-docs.readthedocs.io/projects/jsk_recognition/en/latest/jsk_recognition_utils&quot;&gt;ros-kinetic-jsk-recognition-utils&lt;/a&gt;: 1.2.9-0 -&amp;gt; 1.2.15-1&lt;/li&gt;
+&lt;li&gt;ros-kinetic-map-organizer: 0.10.1-1 -&amp;gt; 0.10.2-1&lt;/li&gt;
+&lt;li&gt;ros-kinetic-mcl-3dl: 0.3.0-1 -&amp;gt; 0.4.0-1&lt;/li&gt;
+&lt;li&gt;ros-kinetic-neonavigation: 0.10.1-1 -&amp;gt; 0.10.2-1&lt;/li&gt;
+&lt;li&gt;ros-kinetic-neonavigation-common: 0.10.1-1 -&amp;gt; 0.10.2-1&lt;/li&gt;
+&lt;li&gt;ros-kinetic-neonavigation-launch: 0.10.1-1 -&amp;gt; 0.10.2-1&lt;/li&gt;
+&lt;li&gt;ros-kinetic-obj-to-pointcloud: 0.10.1-1 -&amp;gt; 0.10.2-1&lt;/li&gt;
+&lt;li&gt;ros-kinetic-planner-cspace: 0.10.1-1 -&amp;gt; 0.10.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://jsk-docs.readthedocs.io/projects/jsk_recognition/en/latest/resized_image_transport&quot;&gt;ros-kinetic-resized-image-transport&lt;/a&gt;: 1.2.9-0 -&amp;gt; 1.2.15-1&lt;/li&gt;
+&lt;li&gt;ros-kinetic-safety-limiter: 0.10.1-1 -&amp;gt; 0.10.2-1&lt;/li&gt;
+&lt;li&gt;ros-kinetic-track-odometry: 0.10.1-1 -&amp;gt; 0.10.2-1&lt;/li&gt;
+&lt;li&gt;ros-kinetic-trajectory-tracker: 0.10.1-1 -&amp;gt; 0.10.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/turtlebot3&quot;&gt;ros-kinetic-turtlebot3&lt;/a&gt;: 1.2.1-1 -&amp;gt; 1.2.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/turtlebot3_bringup&quot;&gt;ros-kinetic-turtlebot3-bringup&lt;/a&gt;: 1.2.1-1 -&amp;gt; 1.2.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/turtlebot3_description&quot;&gt;ros-kinetic-turtlebot3-description&lt;/a&gt;: 1.2.1-1 -&amp;gt; 1.2.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/turtlebot3_example&quot;&gt;ros-kinetic-turtlebot3-example&lt;/a&gt;: 1.2.1-1 -&amp;gt; 1.2.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/turtlebot3_navigation&quot;&gt;ros-kinetic-turtlebot3-navigation&lt;/a&gt;: 1.2.1-1 -&amp;gt; 1.2.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/turtlebot3_slam&quot;&gt;ros-kinetic-turtlebot3-slam&lt;/a&gt;: 1.2.1-1 -&amp;gt; 1.2.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/turtlebot3_teleop&quot;&gt;ros-kinetic-turtlebot3-teleop&lt;/a&gt;: 1.2.1-1 -&amp;gt; 1.2.4-1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Removed Packages [2]:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://wiki.ros.org/dynamixel_workbench_single_manager&quot;&gt;ros-kinetic-dynamixel-workbench-single-manager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://wiki.ros.org/dynamixel_workbench_single_manager_gui&quot;&gt;ros-kinetic-dynamixel-workbench-single-manager-gui&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks to all ROS maintainers who make packages available to the ROS community. The above list of packages was made possible by the work of the following maintainers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AWS RoboMaker&lt;/li&gt;
+&lt;li&gt;Atsushi Watanabe&lt;/li&gt;
+&lt;li&gt;Kei Okada&lt;/li&gt;
+&lt;li&gt;Mike Purvis&lt;/li&gt;
+&lt;li&gt;Naoya Yamaguchi&lt;/li&gt;
+&lt;li&gt;Paul Bovbel&lt;/li&gt;
+&lt;li&gt;Ryohei Ueda&lt;/li&gt;
+&lt;li&gt;Timo Röhling&lt;/li&gt;
+&lt;li&gt;Will Son&lt;/li&gt;
+&lt;li&gt;Yohei Kakiuchi&lt;/li&gt;
+&lt;li&gt;Youhei Kakiuchi&lt;/li&gt;
+&lt;/ul&gt;
+            &lt;p&gt;&lt;small&gt;1 post - 1 participant&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/new-packages-for-kinetic-kame-2020-10-13/16804&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Tue, 13 Oct 2020 17:54:10 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: [Middleware Working Group] Update to schedule for default middleware selection report</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16803</guid>
+	<link>https://discourse.ros.org/t/middleware-working-group-update-to-schedule-for-default-middleware-selection-report/16803</link>
+	<description>&lt;p&gt;We’ve been working on collecting data for the TSC so it can vote on the default rmw implementation to be used in Galactic, and we had planned to circulate the report with the working group on Thursday.&lt;/p&gt;
+&lt;p&gt;However, we’re going to slip that a few days to give us time to process the feedback from the community and to collect more data. Now we’re planning to share it on or shortly after the middleware working group meeting on next Wednesday. We can discuss it then (if it is available), but I’ll plan to schedule a special meeting to take questions about it some time after that.&lt;/p&gt;
+&lt;p&gt;Just as a reminder we’re collecting community feedback until the 16th:&lt;/p&gt;
+&lt;aside class=&quot;quote quote-modified&quot;&gt;
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;div class=&quot;quote-controls&quot;&gt;&lt;/div&gt;
+    &lt;img alt=&quot;&quot; class=&quot;avatar&quot; height=&quot;20&quot; src=&quot;https://discourse.ros.org/user_avatar/discourse.ros.org/katherine_scott/40/4434_2.png&quot; width=&quot;20&quot; /&gt;
+    &lt;a href=&quot;https://discourse.ros.org/t/community-feedback-default-rmw-for-ros-2-galactic/16450&quot;&gt;Community Feedback: Default RMW for ROS 2 Galactic&lt;/a&gt; &lt;a class=&quot;badge-wrapper  bullet&quot; href=&quot;https://discourse.ros.org/c/general/8&quot;&gt;&lt;span class=&quot;badge-category-bg&quot; style=&quot;background-color: #0E76BD;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;badge-category clear-badge&quot; title=&quot;News and general discussion about ROS. Kind of like the “ros-users” of discourse.ros.org. If you have a question: Please ask on http://answers.ros.org following our support guidelines. This is not the right place.&quot;&gt;General&lt;/span&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;blockquote&gt;
+    Hi All, 
+As part of the ROS 2 distro planning process the TSC plans to re-evaluate the default ROS middleware layer that ships with each ROS 2 distro. This RWM selection process will become a regular part of each subsequent ROS 2 release. The motivation for re-evaluating, and potentially changing the default RMW, is driven by and the need to deliver the best possible “out of the box” experience for ROS 2 users. The ROS 2 TSC believes that by continually re-evaluating our potential RMW choices we…
+  &lt;/blockquote&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;1 post - 1 participant&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/middleware-working-group-update-to-schedule-for-default-middleware-selection-report/16803&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Tue, 13 Oct 2020 17:23:43 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: SOSS - the core of Integration Service</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16800</guid>
+	<link>https://discourse.ros.org/t/soss-the-core-of-integration-service/16800</link>
+	<description>&lt;p&gt;Have you met &lt;a href=&quot;https://soss.docs.eprosima.com/en/latest/&quot; rel=&quot;noopener nofollow ugc&quot;&gt;&lt;em&gt;SOSS&lt;/em&gt;&lt;/a&gt; already?&lt;/p&gt;
+&lt;p&gt;Born as the product of a joint effort between &lt;a href=&quot;https://www.openrobotics.org/&quot;&gt;Open Robotics&lt;/a&gt; and &lt;a href=&quot;https://www.eprosima.com/&quot; rel=&quot;noopener nofollow ugc&quot;&gt;eProsima&lt;/a&gt;, &lt;em&gt;SOSS&lt;/em&gt; stands for &lt;strong&gt;S&lt;/strong&gt;ystem-&lt;strong&gt;O&lt;/strong&gt;f-&lt;strong&gt;S&lt;/strong&gt;ystems &lt;strong&gt;S&lt;/strong&gt;ynthesizer and makes a great tool for communicating an arbitrary number of protocols that speak different languages.&lt;/p&gt;
+&lt;p&gt;The communication is made possible by system-specific plugins, or &lt;a href=&quot;https://soss.docs.eprosima.com/en/latest/sh_creation.html&quot; rel=&quot;noopener nofollow ugc&quot;&gt;System-Handles&lt;/a&gt;. These provide the necessary conversion between the target protocols and the specific language spoken by &lt;em&gt;SOSS&lt;/em&gt;. Once a system is communicated with &lt;em&gt;SOSS&lt;/em&gt;, it enters the &lt;em&gt;SOSS&lt;/em&gt;  world and can straightforwardly reach out to any other system that already exists in this world.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;SOSS&lt;/em&gt;  is configured by means of a &lt;a href=&quot;https://soss.docs.eprosima.com/en/latest/yaml_config.html&quot; rel=&quot;noopener nofollow ugc&quot;&gt;YAML text file&lt;/a&gt;, through which the user can provide a mapping between the topics and services on the middlewares of the systems involved.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;lightbox-wrapper&quot;&gt;&lt;a class=&quot;lightbox&quot; href=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/7/70be67d27a0b9dbb66b4368c717509e3225b2a11.png&quot; rel=&quot;noopener nofollow ugc&quot; title=&quot;SH_2&quot;&gt;&lt;img alt=&quot;SH_2&quot; height=&quot;376&quot; src=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/optimized/2X/7/70be67d27a0b9dbb66b4368c717509e3225b2a11_2_690x376.png&quot; width=&quot;690&quot; /&gt;&lt;div class=&quot;meta&quot;&gt;&lt;svg class=&quot;fa d-icon d-icon-far-image svg-icon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;use&gt;&lt;/use&gt;&lt;/svg&gt;&lt;span class=&quot;filename&quot;&gt;SH_2&lt;/span&gt;&lt;span class=&quot;informations&quot;&gt;700Ã—382 24.1 KB&lt;/span&gt;&lt;svg class=&quot;fa d-icon d-icon-discourse-expand svg-icon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;use&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Find out &lt;a href=&quot;https://soss.docs.eprosima.com/en/latest/getting_started.html&quot; rel=&quot;noopener nofollow ugc&quot;&gt;how&lt;/a&gt; to integrate your own protocol into the &lt;em&gt;SOSS&lt;/em&gt; world by generating its System-Handle and filling out the opportune YAML file!&lt;/p&gt;
+&lt;p&gt;Also, find out &lt;a href=&quot;https://integration-service.docs.eprosima.com/en/latest/getting_started.html&quot; rel=&quot;noopener nofollow ugc&quot;&gt;how&lt;/a&gt;, with a simple recipe integrating &lt;em&gt;SOSS&lt;/em&gt; with the &lt;em&gt;SOSS-DDS&lt;/em&gt; System-Handle, you can have &lt;a href=&quot;https://integration-service.docs.eprosima.com/en/latest/&quot; rel=&quot;noopener nofollow ugc&quot;&gt;eProsima Integration-Service&lt;/a&gt; up and running!&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;1 post - 1 participant&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/soss-the-core-of-integration-service/16800&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Tue, 13 Oct 2020 14:34:07 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: ROS Security WG Meeting (13 Oct 2020)</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16798</guid>
+	<link>https://discourse.ros.org/t/ros-security-wg-meeting-13-oct-2020/16798</link>
+	<description>&lt;p&gt;The ROS Security Working Group meeting is scheduled to meet &lt;span class=&quot;discourse-local-date&quot;&gt;2020-10-13T16:00:00Z&lt;/span&gt; → &lt;span class=&quot;discourse-local-date&quot;&gt;2020-10-13T16:30:00Z&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Please add any discussion topics and action item updates to the &lt;a href=&quot;https://docs.google.com/document/d/1xpBfCdDVyxfEQ8gzBsezLRd2JNOepb9si-8OFCGPmCo/edit&quot; rel=&quot;noopener nofollow ugc&quot;&gt;agenda &lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Join us online at &lt;a&gt; meet.google.com/qaf-sixa-ixc &lt;/a&gt;, or join by phone at ‪(US) +1 617-675-4444‬ PIN: ‪570 554 328 2853‬#&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;1 post - 1 participant&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/ros-security-wg-meeting-13-oct-2020/16798&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Tue, 13 Oct 2020 13:58:12 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: Request for Comment: ROS1 Navigation API/ABI Freeze</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16782</guid>
+	<link>https://discourse.ros.org/t/request-for-comment-ros1-navigation-api-abi-freeze/16782</link>
+	<description>&lt;p&gt;Normally, we’d freeze the API/ABI a short time after the original release (June or so) - but since this is our last ROS release, we don’t have another release to push things off to. There are a number of PRs opened that break API/ABI - and that we should probably get in.&lt;/p&gt;
+&lt;p&gt;With the MoveIt project, we’ve decided that API/ABI breaking changes are allowed through at least the end of the year - to give developers time to get those changes in. I’m proposing the same for Navigation. If you have strong thoughts on the matter, please comment on the GitHub issue: &lt;a href=&quot;https://github.com/ros-planning/navigation/issues/1038&quot; rel=&quot;noopener nofollow ugc&quot;&gt;https://github.com/ros-planning/navigation/issues/1038&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;1 post - 1 participant&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/request-for-comment-ros1-navigation-api-abi-freeze/16782&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Mon, 12 Oct 2020 13:42:18 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: New packages for Melodic 2020-10-12</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16781</guid>
+	<link>https://discourse.ros.org/t/new-packages-for-melodic-2020-10-12/16781</link>
+	<description>&lt;p&gt;We’re happy to announce the next update of ROS Melodic. There are 53 new packages as well as 100 updated packages. Full details are below.&lt;/p&gt;
+&lt;h2&gt;Package Updates for melodic&lt;/h2&gt;
+&lt;h3&gt;Added Packages [53]:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.uco.es/investiga/grupos/ava/node/26&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-melodic-aruco&lt;/a&gt;: 2.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-aruco-msgs: 2.1.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.uco.es/investiga/grupos/ava/node/26&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-melodic-aruco-ros&lt;/a&gt;: 2.1.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/computer_status_msgs&quot;&gt;ros-melodic-computer-status-msgs&lt;/a&gt;: 2.0.0-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.ros.org/wiki/dense_laser_assembler&quot;&gt;ros-melodic-dense-laser-assembler&lt;/a&gt;: 1.0.11-3&lt;/li&gt;
+&lt;li&gt;
+&lt;a&gt;ros-melodic-eiquadprog&lt;/a&gt;: 1.2.2-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-heron-control: 0.3.3-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-heron-description: 0.3.3-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-heron-gazebo: 0.3.0-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-heron-msgs: 0.3.3-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-heron-simulator: 0.3.0-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.ros.org/wiki/joint_qualification_controllers&quot;&gt;ros-melodic-joint-qualification-controllers&lt;/a&gt;: 1.0.15-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.ros.org/wiki/laser_joint_processor&quot;&gt;ros-melodic-laser-joint-processor&lt;/a&gt;: 1.0.11-3&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.ros.org/wiki/laser_joint_projector&quot;&gt;ros-melodic-laser-joint-projector&lt;/a&gt;: 1.0.11-3&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/leo&quot;&gt;ros-melodic-leo&lt;/a&gt;: 1.0.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/leo_desktop&quot;&gt;ros-melodic-leo-desktop&lt;/a&gt;: 0.2.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/leo_gazebo&quot;&gt;ros-melodic-leo-gazebo&lt;/a&gt;: 0.1.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/leo_simulator&quot;&gt;ros-melodic-leo-simulator&lt;/a&gt;: 0.1.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/moose_desktop&quot;&gt;ros-melodic-moose-desktop&lt;/a&gt;: 0.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-moose-gazebo: 0.1.3-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-moose-simulator: 0.1.3-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-moose-viz: 0.1.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/mrp2_bringup&quot;&gt;ros-melodic-mrp2-bringup&lt;/a&gt;: 0.2.6-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/mrp2_common&quot;&gt;ros-melodic-mrp2-common&lt;/a&gt;: 1.0.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/mrp2_description&quot;&gt;ros-melodic-mrp2-description&lt;/a&gt;: 1.0.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/mrp2_desktop&quot;&gt;ros-melodic-mrp2-desktop&lt;/a&gt;: 0.2.2-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/mrp2_display&quot;&gt;ros-melodic-mrp2-display&lt;/a&gt;: 0.2.6-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/mrp2_gazebo&quot;&gt;ros-melodic-mrp2-gazebo&lt;/a&gt;: 1.0.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/mrp2_hardware&quot;&gt;ros-melodic-mrp2-hardware&lt;/a&gt;: 0.2.6-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/mrp2_navigation&quot;&gt;ros-melodic-mrp2-navigation&lt;/a&gt;: 1.0.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/mrp2_robot&quot;&gt;ros-melodic-mrp2-robot&lt;/a&gt;: 0.2.6-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/mrp2_simulator&quot;&gt;ros-melodic-mrp2-simulator&lt;/a&gt;: 1.0.1-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-mrp2-slam: 1.0.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/mrp2_teleop&quot;&gt;ros-melodic-mrp2-teleop&lt;/a&gt;: 1.0.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/mrp2_viz&quot;&gt;ros-melodic-mrp2-viz&lt;/a&gt;: 0.2.2-2&lt;/li&gt;
+&lt;li&gt;ros-melodic-openzen-sensor: 1.0.1-2&lt;/li&gt;
+&lt;li&gt;ros-melodic-play-motion: 0.4.8-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-play-motion-msgs: 0.4.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/pr2_bringup_tests&quot;&gt;ros-melodic-pr2-bringup-tests&lt;/a&gt;: 1.0.15-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-pr2-calibration: 1.0.11-3&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.ros.org/wiki/pr2_calibration_launch&quot;&gt;ros-melodic-pr2-calibration-launch&lt;/a&gt;: 1.0.11-3&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/pr2_counterbalance_check&quot;&gt;ros-melodic-pr2-counterbalance-check&lt;/a&gt;: 1.0.15-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.ros.org/wiki/pr2_dense_laser_snapshotter&quot;&gt;ros-melodic-pr2-dense-laser-snapshotter&lt;/a&gt;: 1.0.11-3&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/pr2_motor_diagnostic_tool&quot;&gt;ros-melodic-pr2-motor-diagnostic-tool&lt;/a&gt;: 1.0.15-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/pr2_se_calibration_launch&quot;&gt;ros-melodic-pr2-se-calibration-launch&lt;/a&gt;: 1.0.11-3&lt;/li&gt;
+&lt;li&gt;ros-melodic-pr2-self-test: 1.0.15-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/pr2_self_test_msgs&quot;&gt;ros-melodic-pr2-self-test-msgs&lt;/a&gt;: 1.0.15-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/rt-net/rt_usb_9axisimu_driver/wiki&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-melodic-rt-usb-9axisimu-driver&lt;/a&gt;: 1.0.0-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-sr-hand-detector: 0.0.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/stack-of-tasks/tsid&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-melodic-tsid&lt;/a&gt;: 1.4.1-3&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/ur_client_library&quot;&gt;ros-melodic-ur-client-library&lt;/a&gt;: 0.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-wireless-msgs: 0.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-wireless-watcher: 0.1.1-1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Updated Packages [100]:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://april.eecs.umich.edu/software/apriltag.html&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-melodic-apriltag&lt;/a&gt;: 3.1.1-1 -&amp;gt; 3.1.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/audio_capture&quot;&gt;ros-melodic-audio-capture&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/audio_common&quot;&gt;ros-melodic-audio-common&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/audio_common_msgs&quot;&gt;ros-melodic-audio-common-msgs&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/audio_play&quot;&gt;ros-melodic-audio-play&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-behaviortree-cpp-v3: 3.5.2-1 -&amp;gt; 3.5.3-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/can_msgs&quot;&gt;ros-melodic-can-msgs&lt;/a&gt;: 0.8.4-1 -&amp;gt; 0.8.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/canopen_402&quot;&gt;ros-melodic-canopen-402&lt;/a&gt;: 0.8.4-1 -&amp;gt; 0.8.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/canopen_chain_node&quot;&gt;ros-melodic-canopen-chain-node&lt;/a&gt;: 0.8.4-1 -&amp;gt; 0.8.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/canopen_master&quot;&gt;ros-melodic-canopen-master&lt;/a&gt;: 0.8.4-1 -&amp;gt; 0.8.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/canopen_motor_node&quot;&gt;ros-melodic-canopen-motor-node&lt;/a&gt;: 0.8.4-1 -&amp;gt; 0.8.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_actions&quot;&gt;ros-melodic-cob-actions&lt;/a&gt;: 0.7.2-1 -&amp;gt; 0.7.3-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_common&quot;&gt;ros-melodic-cob-common&lt;/a&gt;: 0.7.2-1 -&amp;gt; 0.7.3-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_default_env_config&quot;&gt;ros-melodic-cob-default-env-config&lt;/a&gt;: 0.6.11-1 -&amp;gt; 0.6.12-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_description&quot;&gt;ros-melodic-cob-description&lt;/a&gt;: 0.7.2-1 -&amp;gt; 0.7.3-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_environments&quot;&gt;ros-melodic-cob-environments&lt;/a&gt;: 0.6.11-1 -&amp;gt; 0.6.12-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_gazebo_plugins&quot;&gt;ros-melodic-cob-gazebo-plugins&lt;/a&gt;: 0.7.4-1 -&amp;gt; 0.7.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_gazebo_ros_control&quot;&gt;ros-melodic-cob-gazebo-ros-control&lt;/a&gt;: 0.7.4-1 -&amp;gt; 0.7.5-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-cob-msgs: 0.7.2-1 -&amp;gt; 0.7.3-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_srvs&quot;&gt;ros-melodic-cob-srvs&lt;/a&gt;: 0.7.2-1 -&amp;gt; 0.7.3-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_supported_robots&quot;&gt;ros-melodic-cob-supported-robots&lt;/a&gt;: 0.6.14-1 -&amp;gt; 0.6.15-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-ddynamic-reconfigure: 0.2.0-0 -&amp;gt; 0.3.1-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-dingo-control: 0.1.0-1 -&amp;gt; 0.1.3-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-dingo-description: 0.1.0-1 -&amp;gt; 0.1.3-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-dingo-msgs: 0.1.0-1 -&amp;gt; 0.1.3-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-dingo-navigation: 0.1.0-1 -&amp;gt; 0.1.3-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/dynamixel_workbench&quot;&gt;ros-melodic-dynamixel-workbench&lt;/a&gt;: 2.0.0-0 -&amp;gt; 2.2.0-0&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/dynamixel_workbench_controllers&quot;&gt;ros-melodic-dynamixel-workbench-controllers&lt;/a&gt;: 2.0.0-0 -&amp;gt; 2.2.0-0&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/dynamixel_workbench_msgs&quot;&gt;ros-melodic-dynamixel-workbench-msgs&lt;/a&gt;: 2.0.0-0 -&amp;gt; 2.0.1-0&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/dynamixel_workbench_operators&quot;&gt;ros-melodic-dynamixel-workbench-operators&lt;/a&gt;: 2.0.0-0 -&amp;gt; 2.2.0-0&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/dynamixel_workbench_toolbox&quot;&gt;ros-melodic-dynamixel-workbench-toolbox&lt;/a&gt;: 2.0.0-0 -&amp;gt; 2.2.0-0&lt;/li&gt;
+&lt;li&gt;ros-melodic-euslime: 1.0.2-1 -&amp;gt; 1.1.0-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/fetchrobotics/fetch_tools/blob/master/README.md&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-melodic-fetch-tools&lt;/a&gt;: 0.2.1-0 -&amp;gt; 0.2.2-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-fkie-potree-rviz-plugin: 1.0.0-0 -&amp;gt; 1.0.1-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-gazebo-video-monitor-plugins: 0.4.2-1 -&amp;gt; 0.5.0-2&lt;/li&gt;
+&lt;li&gt;ros-melodic-hfl-driver: 0.0.17-1 -&amp;gt; 0.0.20-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_base&quot;&gt;ros-melodic-husky-base&lt;/a&gt;: 0.4.4-1 -&amp;gt; 0.4.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_bringup&quot;&gt;ros-melodic-husky-bringup&lt;/a&gt;: 0.4.4-1 -&amp;gt; 0.4.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_control&quot;&gt;ros-melodic-husky-control&lt;/a&gt;: 0.4.4-1 -&amp;gt; 0.4.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_description&quot;&gt;ros-melodic-husky-description&lt;/a&gt;: 0.4.4-1 -&amp;gt; 0.4.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_desktop&quot;&gt;ros-melodic-husky-desktop&lt;/a&gt;: 0.4.4-1 -&amp;gt; 0.4.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_gazebo&quot;&gt;ros-melodic-husky-gazebo&lt;/a&gt;: 0.4.4-1 -&amp;gt; 0.4.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_msgs&quot;&gt;ros-melodic-husky-msgs&lt;/a&gt;: 0.4.4-1 -&amp;gt; 0.4.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_navigation&quot;&gt;ros-melodic-husky-navigation&lt;/a&gt;: 0.4.4-1 -&amp;gt; 0.4.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_robot&quot;&gt;ros-melodic-husky-robot&lt;/a&gt;: 0.4.4-1 -&amp;gt; 0.4.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_simulator&quot;&gt;ros-melodic-husky-simulator&lt;/a&gt;: 0.4.4-1 -&amp;gt; 0.4.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/husky_viz&quot;&gt;ros-melodic-husky-viz&lt;/a&gt;: 0.4.4-1 -&amp;gt; 0.4.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/iirob_filters&quot;&gt;ros-melodic-iirob-filters&lt;/a&gt;: 0.9.1-1 -&amp;gt; 0.9.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/ixblue_stdbin_decoder&quot;&gt;ros-melodic-ixblue-stdbin-decoder&lt;/a&gt;: 0.1.2-1 -&amp;gt; 0.1.3-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/jackal_control&quot;&gt;ros-melodic-jackal-control&lt;/a&gt;: 0.7.1-1 -&amp;gt; 0.7.2-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-jackal-description: 0.7.1-1 -&amp;gt; 0.7.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/jackal_msgs&quot;&gt;ros-melodic-jackal-msgs&lt;/a&gt;: 0.7.1-1 -&amp;gt; 0.7.2-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-jackal-navigation: 0.7.1-1 -&amp;gt; 0.7.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/jackal_msgs&quot;&gt;ros-melodic-jackal-tutorials&lt;/a&gt;: 0.7.1-1 -&amp;gt; 0.7.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/kobuki_core&quot;&gt;ros-melodic-kobuki-core&lt;/a&gt;: 0.7.9-1 -&amp;gt; 0.7.12-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/kobuki_dock_drive&quot;&gt;ros-melodic-kobuki-dock-drive&lt;/a&gt;: 0.7.9-1 -&amp;gt; 0.7.12-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/kobuki_driver&quot;&gt;ros-melodic-kobuki-driver&lt;/a&gt;: 0.7.9-1 -&amp;gt; 0.7.12-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/kobuki_ftdi&quot;&gt;ros-melodic-kobuki-ftdi&lt;/a&gt;: 0.7.9-1 -&amp;gt; 0.7.12-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-leo-description: 0.3.0-1 -&amp;gt; 1.0.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/leo_viz&quot;&gt;ros-melodic-leo-viz&lt;/a&gt;: 0.2.0-1 -&amp;gt; 0.2.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/mavros&quot;&gt;ros-melodic-libmavconn&lt;/a&gt;: 1.3.0-1 -&amp;gt; 1.4.0-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/IntelRealSense/librealsense/&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-melodic-librealsense2&lt;/a&gt;: 2.37.0-1 -&amp;gt; 2.38.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://mavlink.io/en/&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-melodic-mavlink&lt;/a&gt;: 2020.8.8-1 -&amp;gt; 2020.9.10-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/mavros&quot;&gt;ros-melodic-mavros&lt;/a&gt;: 1.3.0-1 -&amp;gt; 1.4.0-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/mavros_extras&quot;&gt;ros-melodic-mavros-extras&lt;/a&gt;: 1.3.0-1 -&amp;gt; 1.4.0-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/mavros_msgs&quot;&gt;ros-melodic-mavros-msgs&lt;/a&gt;: 1.3.0-1 -&amp;gt; 1.4.0-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://www.mrpt.org/&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-melodic-mrpt2&lt;/a&gt;: 2.0.4-1 -&amp;gt; 2.1.0-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_description&quot;&gt;ros-melodic-raw-description&lt;/a&gt;: 0.7.2-1 -&amp;gt; 0.7.3-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rc_genicam_api&quot;&gt;ros-melodic-rc-genicam-api&lt;/a&gt;: 2.3.4-1 -&amp;gt; 2.4.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rc_hand_eye_calibration_client&quot;&gt;ros-melodic-rc-hand-eye-calibration-client&lt;/a&gt;: 3.0.2-1 -&amp;gt; 3.0.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rc_pick_client&quot;&gt;ros-melodic-rc-pick-client&lt;/a&gt;: 3.0.2-1 -&amp;gt; 3.0.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rc_roi_manager_gui&quot;&gt;ros-melodic-rc-roi-manager-gui&lt;/a&gt;: 3.0.2-1 -&amp;gt; 3.0.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rc_silhouettematch_client&quot;&gt;ros-melodic-rc-silhouettematch-client&lt;/a&gt;: 3.0.2-1 -&amp;gt; 3.0.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rc_tagdetect_client&quot;&gt;ros-melodic-rc-tagdetect-client&lt;/a&gt;: 3.0.2-1 -&amp;gt; 3.0.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://roboception.com/rc_visard&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-melodic-rc-visard&lt;/a&gt;: 3.0.2-1 -&amp;gt; 3.0.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rc_visard_description&quot;&gt;ros-melodic-rc-visard-description&lt;/a&gt;: 3.0.2-1 -&amp;gt; 3.0.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rc_visard_driver&quot;&gt;ros-melodic-rc-visard-driver&lt;/a&gt;: 3.0.2-1 -&amp;gt; 3.0.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.ros.org/wiki/RealSense&quot;&gt;ros-melodic-realsense2-camera&lt;/a&gt;: 2.2.16-1 -&amp;gt; 2.2.17-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.ros.org/wiki/RealSense&quot;&gt;ros-melodic-realsense2-description&lt;/a&gt;: 2.2.16-1 -&amp;gt; 2.2.17-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-remote-rosbag-record: 0.0.2-1 -&amp;gt; 0.0.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/robotis_manipulator&quot;&gt;ros-melodic-robotis-manipulator&lt;/a&gt;: 1.0.0-0 -&amp;gt; 1.1.0-0&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/ros_canopen&quot;&gt;ros-melodic-ros-canopen&lt;/a&gt;: 0.8.4-1 -&amp;gt; 0.8.5-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-ros-environment: 1.2.2-1 -&amp;gt; 1.2.3-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-sick-safetyscanners: 1.0.5-1 -&amp;gt; 1.0.6-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/socketcan_bridge&quot;&gt;ros-melodic-socketcan-bridge&lt;/a&gt;: 0.8.4-1 -&amp;gt; 0.8.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/socketcan_interface&quot;&gt;ros-melodic-socketcan-interface&lt;/a&gt;: 0.8.4-1 -&amp;gt; 0.8.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/sound_play&quot;&gt;ros-melodic-sound-play&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-test-mavros: 1.3.0-1 -&amp;gt; 1.4.0-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/turtlebot3&quot;&gt;ros-melodic-turtlebot3&lt;/a&gt;: 1.2.2-1 -&amp;gt; 1.2.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/turtlebot3_bringup&quot;&gt;ros-melodic-turtlebot3-bringup&lt;/a&gt;: 1.2.2-1 -&amp;gt; 1.2.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/turtlebot3_description&quot;&gt;ros-melodic-turtlebot3-description&lt;/a&gt;: 1.2.2-1 -&amp;gt; 1.2.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/turtlebot3_example&quot;&gt;ros-melodic-turtlebot3-example&lt;/a&gt;: 1.2.2-1 -&amp;gt; 1.2.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/turtlebot3_navigation&quot;&gt;ros-melodic-turtlebot3-navigation&lt;/a&gt;: 1.2.2-1 -&amp;gt; 1.2.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/turtlebot3_slam&quot;&gt;ros-melodic-turtlebot3-slam&lt;/a&gt;: 1.2.2-1 -&amp;gt; 1.2.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/turtlebot3_teleop&quot;&gt;ros-melodic-turtlebot3-teleop&lt;/a&gt;: 1.2.2-1 -&amp;gt; 1.2.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.clearpathrobotics.com/&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-melodic-warthog-control&lt;/a&gt;: 0.1.1-2 -&amp;gt; 0.1.2-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-warthog-description: 0.1.1-2 -&amp;gt; 0.1.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/warthog_desktop&quot;&gt;ros-melodic-warthog-desktop&lt;/a&gt;: 0.0.1-1 -&amp;gt; 0.1.0-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/warthog_msgs&quot;&gt;ros-melodic-warthog-msgs&lt;/a&gt;: 0.1.1-2 -&amp;gt; 0.1.2-1&lt;/li&gt;
+&lt;li&gt;ros-melodic-warthog-viz: 0.0.1-1 -&amp;gt; 0.1.0-1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Removed Packages [0]:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://wiki.ros.org/dynamixel_workbench_single_manager&quot;&gt;ros-melodic-dynamixel-workbench-single-manager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ros-melodic-dynamixel-workbench-single-manager-dbgsym&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://wiki.ros.org/dynamixel_workbench_single_manager_gui&quot;&gt;ros-melodic-dynamixel-workbench-single-manager-gui&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ros-melodic-dynamixel-workbench-single-manager-gui-dbgsym&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks to all ROS maintainers who make packages available to the ROS community. The above list of packages was made possible by the work of the following maintainers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adolfo Rodriguez Tsouroukdissian&lt;/li&gt;
+&lt;li&gt;Akif Hacinecipoglu&lt;/li&gt;
+&lt;li&gt;Austin Hendrix&lt;/li&gt;
+&lt;li&gt;Bence Magyar&lt;/li&gt;
+&lt;li&gt;Błażej Sowa&lt;/li&gt;
+&lt;li&gt;Daniel Stonier&lt;/li&gt;
+&lt;li&gt;Dave Feil-Seifer&lt;/li&gt;
+&lt;li&gt;David Feil-Seifer&lt;/li&gt;
+&lt;li&gt;Davide Faconti&lt;/li&gt;
+&lt;li&gt;Denis Štogl&lt;/li&gt;
+&lt;li&gt;Dirk Thomas&lt;/li&gt;
+&lt;li&gt;Emir Cem Gezer&lt;/li&gt;
+&lt;li&gt;Eric Relson&lt;/li&gt;
+&lt;li&gt;Evan Flynn&lt;/li&gt;
+&lt;li&gt;Felix Exner&lt;/li&gt;
+&lt;li&gt;Felix Messmer&lt;/li&gt;
+&lt;li&gt;Felix Ruess&lt;/li&gt;
+&lt;li&gt;Feng&lt;/li&gt;
+&lt;li&gt;Guilhem Saurel&lt;/li&gt;
+&lt;li&gt;Guilherme de Campos Affonso&lt;/li&gt;
+&lt;li&gt;Hilario Tome&lt;/li&gt;
+&lt;li&gt;Hye-Jong KIM&lt;/li&gt;
+&lt;li&gt;Isaac I.Y. Saito&lt;/li&gt;
+&lt;li&gt;Jannik Abbenseth&lt;/li&gt;
+&lt;li&gt;Jose-Luis Blanco-Claraco&lt;/li&gt;
+&lt;li&gt;Lennart Puck&lt;/li&gt;
+&lt;li&gt;Mathias Lüdtke&lt;/li&gt;
+&lt;li&gt;Max Krogius&lt;/li&gt;
+&lt;li&gt;Mike Purvis&lt;/li&gt;
+&lt;li&gt;Monika Florek-Jasinska&lt;/li&gt;
+&lt;li&gt;Nick Lamprianidis&lt;/li&gt;
+&lt;li&gt;Olivier Stasse&lt;/li&gt;
+&lt;li&gt;RT Corporation&lt;/li&gt;
+&lt;li&gt;Romain Reignier&lt;/li&gt;
+&lt;li&gt;Sergey Dorodnicov&lt;/li&gt;
+&lt;li&gt;Shadow Robot’s Software Team&lt;/li&gt;
+&lt;li&gt;Timo Röhling&lt;/li&gt;
+&lt;li&gt;Tony Baltovski&lt;/li&gt;
+&lt;li&gt;Victor Lopez&lt;/li&gt;
+&lt;li&gt;Vladimir Ermakov&lt;/li&gt;
+&lt;li&gt;Will Son&lt;/li&gt;
+&lt;li&gt;Yoshito Okada&lt;/li&gt;
+&lt;li&gt;Younghun Ju&lt;/li&gt;
+&lt;li&gt;fictionlab&lt;/li&gt;
+&lt;/ul&gt;
+            &lt;p&gt;&lt;small&gt;1 post - 1 participant&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/new-packages-for-melodic-2020-10-12/16781&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Mon, 12 Oct 2020 13:20:22 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: New packages and patch release for Foxy Fitzroy 2020-10-09</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16760</guid>
+	<link>https://discourse.ros.org/t/new-packages-and-patch-release-for-foxy-fitzroy-2020-10-09/16760</link>
+	<description>&lt;p&gt;We’re happy to announce a &lt;a href=&quot;https://github.com/ros2/ros2/releases/tag/release-foxy-20201009&quot; rel=&quot;noopener nofollow ugc&quot;&gt;new Foxy release &lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;This release brings a number of new packages as well as some updates to ROS 2 core packages. For a list of patches to core packages, see the &lt;a href=&quot;https://github.com/orgs/ros2/projects/27&quot; rel=&quot;noopener nofollow ugc&quot;&gt;project board on GitHub &lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Package Updates for foxy&lt;/h2&gt;
+&lt;h3&gt;Added Packages [28]:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ros-foxy-ackermann-msgs: 2.0.2-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-google-benchmark: 0.9.7-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/four_wheel_steering_msgs&quot;&gt;ros-foxy-four-wheel-steering-msgs&lt;/a&gt;: 2.0.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/google/benchmark&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-foxy-google-benchmark-vendor&lt;/a&gt;: 0.0.3-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-lanelet2: 1.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-lanelet2-core: 1.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-lanelet2-examples: 1.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-lanelet2-io: 1.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-lanelet2-maps: 1.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-lanelet2-projection: 1.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-lanelet2-python: 1.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-lanelet2-routing: 1.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-lanelet2-traffic-rules: 1.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-lanelet2-validation: 1.1.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/Snaipe/Mimick&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-foxy-mimick-vendor&lt;/a&gt;: 0.2.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/mrt_cmake_modules&quot;&gt;ros-foxy-mrt-cmake-modules&lt;/a&gt;: 1.0.8-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-novatel-gps-driver: 4.1.0-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-novatel-gps-msgs: 4.1.0-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-performance-test-fixture: 0.0.4-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-rover-bringup: 0.1.1-2&lt;/li&gt;
+&lt;li&gt;ros-foxy-rover-description: 0.1.1-2&lt;/li&gt;
+&lt;li&gt;ros-foxy-rover-driver: 0.1.1-2&lt;/li&gt;
+&lt;li&gt;ros-foxy-rover-msgs: 0.1.1-2&lt;/li&gt;
+&lt;li&gt;ros-foxy-rover-navigation: 0.1.1-2&lt;/li&gt;
+&lt;li&gt;ros-foxy-rover-simulation: 0.1.1-2&lt;/li&gt;
+&lt;li&gt;ros-foxy-rover-teleop: 0.1.1-2&lt;/li&gt;
+&lt;li&gt;ros-foxy-roverrobotics-ros2: 0.1.1-2&lt;/li&gt;
+&lt;li&gt;ros-foxy-test-apex-test-tools: 0.0.2-1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Updated Packages [68]:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ros-foxy-ament-cmake: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-auto: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-core: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-export-definitions: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-export-dependencies: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-export-include-directories: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-export-interfaces: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-export-libraries: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-export-link-flags: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-export-targets: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-gmock: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-gtest: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-include-directories: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-libraries: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-nose: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-pytest: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-python: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-target-dependencies: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-test: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-cmake-version: 0.9.6-1 -&amp;gt; 0.9.7-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-index-cpp: 1.0.0-1 -&amp;gt; 1.0.1-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ament-index-python: 1.0.0-1 -&amp;gt; 1.0.1-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-apex-test-tools: 0.0.1-1 -&amp;gt; 0.0.2-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-connext-cmake-module: 1.0.1-1 -&amp;gt; 1.0.2-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-kdl-parser: 2.4.1-1 -&amp;gt; 2.4.1-2&lt;/li&gt;
+&lt;li&gt;ros-foxy-launch-ros: 0.10.2-1 -&amp;gt; 0.10.3-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-launch-testing-ros: 0.10.2-1 -&amp;gt; 0.10.3-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-lgsvl-bridge: 0.1.2-1 -&amp;gt; 0.1.3-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/qt_dotgraph&quot;&gt;ros-foxy-qt-dotgraph&lt;/a&gt;: 1.1.2-1 -&amp;gt; 1.1.2-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/qt_gui&quot;&gt;ros-foxy-qt-gui&lt;/a&gt;: 1.1.2-1 -&amp;gt; 1.1.2-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/qt_gui_app&quot;&gt;ros-foxy-qt-gui-app&lt;/a&gt;: 1.1.2-1 -&amp;gt; 1.1.2-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/qt_gui_core&quot;&gt;ros-foxy-qt-gui-core&lt;/a&gt;: 1.1.2-1 -&amp;gt; 1.1.2-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/qt_gui_cpp&quot;&gt;ros-foxy-qt-gui-cpp&lt;/a&gt;: 1.1.2-1 -&amp;gt; 1.1.2-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/qt_gui_py_common&quot;&gt;ros-foxy-qt-gui-py-common&lt;/a&gt;: 1.1.2-1 -&amp;gt; 1.1.2-2&lt;/li&gt;
+&lt;li&gt;ros-foxy-rcl: 1.1.7-1 -&amp;gt; 1.1.8-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-rcl-action: 1.1.7-1 -&amp;gt; 1.1.8-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-rcl-lifecycle: 1.1.7-1 -&amp;gt; 1.1.8-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-rcl-yaml-param-parser: 1.1.7-1 -&amp;gt; 1.1.8-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-rclcpp: 2.1.0-1 -&amp;gt; 2.2.0-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-rclcpp-action: 2.1.0-1 -&amp;gt; 2.2.0-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-rclcpp-components: 2.1.0-1 -&amp;gt; 2.2.0-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-rclcpp-lifecycle: 2.1.0-1 -&amp;gt; 2.2.0-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-rcutils: 1.0.1-1 -&amp;gt; 1.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-rmw-cyclonedds-cpp: 0.7.3-1 -&amp;gt; 0.7.4-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-rmw-fastrtps-cpp: 1.2.0-1 -&amp;gt; 1.2.1-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-rmw-fastrtps-dynamic-cpp: 1.2.0-1 -&amp;gt; 1.2.1-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-rmw-fastrtps-shared-cpp: 1.2.0-1 -&amp;gt; 1.2.1-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-robot-state-publisher: 2.4.0-1 -&amp;gt; 2.4.1-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-ros2launch: 0.10.2-1 -&amp;gt; 0.10.3-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-rosidl-typesupport-connext-c: 1.0.1-1 -&amp;gt; 1.0.2-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-rosidl-typesupport-connext-cpp: 1.0.1-1 -&amp;gt; 1.0.2-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-system-modes: 0.3.0-1 -&amp;gt; 0.4.0-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-system-modes-examples: 0.3.0-1 -&amp;gt; 0.4.0-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-urdf: 2.4.0-1 -&amp;gt; 2.4.0-2&lt;/li&gt;
+&lt;li&gt;ros-foxy-urdfdom: 2.3.2-1 -&amp;gt; 2.3.3-1&lt;/li&gt;
+&lt;li&gt;ros-foxy-v4l2-camera: 0.2.1-3 -&amp;gt; 0.3.0-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/webots_ros2&quot;&gt;ros-foxy-webots-ros2&lt;/a&gt;: 1.0.1-1 -&amp;gt; 1.0.1-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/webots_ros2&quot;&gt;ros-foxy-webots-ros2-abb&lt;/a&gt;: 1.0.1-1 -&amp;gt; 1.0.1-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/webots_ros2&quot;&gt;ros-foxy-webots-ros2-core&lt;/a&gt;: 1.0.1-1 -&amp;gt; 1.0.1-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/webots_ros2&quot;&gt;ros-foxy-webots-ros2-demos&lt;/a&gt;: 1.0.1-1 -&amp;gt; 1.0.1-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/webots_ros2&quot;&gt;ros-foxy-webots-ros2-epuck&lt;/a&gt;: 1.0.1-1 -&amp;gt; 1.0.1-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/webots_ros2&quot;&gt;ros-foxy-webots-ros2-examples&lt;/a&gt;: 1.0.1-1 -&amp;gt; 1.0.1-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/webots_ros2&quot;&gt;ros-foxy-webots-ros2-importer&lt;/a&gt;: 1.0.1-1 -&amp;gt; 1.0.1-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/webots_ros2&quot;&gt;ros-foxy-webots-ros2-msgs&lt;/a&gt;: 1.0.1-1 -&amp;gt; 1.0.1-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/webots_ros2&quot;&gt;ros-foxy-webots-ros2-tiago&lt;/a&gt;: 1.0.1-1 -&amp;gt; 1.0.1-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/webots_ros2&quot;&gt;ros-foxy-webots-ros2-universal-robot&lt;/a&gt;: 1.0.1-1 -&amp;gt; 1.0.1-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/webots_ros2&quot;&gt;ros-foxy-webots-ros2-ur-e-description&lt;/a&gt;: 1.0.1-1 -&amp;gt; 1.0.1-2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Removed Packages [9]:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ros-foxy-chiconybot&lt;/li&gt;
+&lt;li&gt;ros-foxy-chiconybot-bringup&lt;/li&gt;
+&lt;li&gt;ros-foxy-chiconybot-cartographer&lt;/li&gt;
+&lt;li&gt;ros-foxy-chiconybot-description&lt;/li&gt;
+&lt;li&gt;ros-foxy-chiconybot-gazebo&lt;/li&gt;
+&lt;li&gt;ros-foxy-chiconybot-msgs&lt;/li&gt;
+&lt;li&gt;ros-foxy-chiconybot-navigation2&lt;/li&gt;
+&lt;li&gt;ros-foxy-chiconybot-node&lt;/li&gt;
+&lt;li&gt;ros-foxy-chiconybot-teleop&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks to all ROS maintainers who make packages available to the ROS community. The above list of packages was made possible by the work of the following maintainers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Anup Pemmaiah&lt;/li&gt;
+&lt;li&gt;Apex.AI, Inc.&lt;/li&gt;
+&lt;li&gt;Arne Nordmann&lt;/li&gt;
+&lt;li&gt;Chris Lalancette&lt;/li&gt;
+&lt;li&gt;Cyberbotics&lt;/li&gt;
+&lt;li&gt;Dirk Thomas&lt;/li&gt;
+&lt;li&gt;Dorian Scholz&lt;/li&gt;
+&lt;li&gt;Erik Boasson&lt;/li&gt;
+&lt;li&gt;Fabian Poggenhans&lt;/li&gt;
+&lt;li&gt;Jack O’Quin&lt;/li&gt;
+&lt;li&gt;Jacob Perron&lt;/li&gt;
+&lt;li&gt;Jan-Hendrik Pauls&lt;/li&gt;
+&lt;li&gt;Jorge J. Perez&lt;/li&gt;
+&lt;li&gt;Karsten Knese&lt;/li&gt;
+&lt;li&gt;Kevin Rösch&lt;/li&gt;
+&lt;li&gt;Martins Mozeiko&lt;/li&gt;
+&lt;li&gt;Michael Carroll&lt;/li&gt;
+&lt;li&gt;Nick Padilla&lt;/li&gt;
+&lt;li&gt;P. J. Reed&lt;/li&gt;
+&lt;li&gt;Pete Baughman&lt;/li&gt;
+&lt;li&gt;Sander G. van Dijk&lt;/li&gt;
+&lt;li&gt;Scott K Logan&lt;/li&gt;
+&lt;li&gt;Steven! Ragnarök&lt;/li&gt;
+&lt;li&gt;Vincent Rousseau&lt;/li&gt;
+&lt;li&gt;William Woodall&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&quot;:fox_face:&quot; class=&quot;emoji only-emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/fox_face.png?v=9&quot; title=&quot;:fox_face:&quot; /&gt; &lt;img alt=&quot;:turtle:&quot; class=&quot;emoji only-emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/turtle.png?v=9&quot; title=&quot;:turtle:&quot; /&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;3 posts - 2 participants&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/new-packages-and-patch-release-for-foxy-fitzroy-2020-10-09/16760&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Sat, 10 Oct 2020 00:10:44 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: New Packages for Noetic 2020-10-09</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16758</guid>
+	<link>https://discourse.ros.org/t/new-packages-for-noetic-2020-10-09/16758</link>
+	<description>&lt;p&gt;We’re happy to announce &lt;strong&gt;57&lt;/strong&gt; new packages and &lt;strong&gt;49&lt;/strong&gt; updates are now available in ROS Noetic. This sync was tagged as &lt;a href=&quot;https://github.com/ros/rosdistro/blob/noetic/2020-10-09/noetic/distribution.yaml&quot; rel=&quot;noopener nofollow ugc&quot;&gt;&lt;code&gt;noetic/2020-10-09&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thank you to every maintainer and contributor who made these updates available!&lt;/p&gt;
+&lt;h2&gt;Package Updates for ROS Noetic&lt;/h2&gt;
+&lt;h3&gt;Added Packages [57]:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ros-noetic-audio-to-spectrogram: 1.2.12-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://jsk-docs.readthedocs.io/projects/jsk_recognition/en/latest/checkerboard_detector&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-noetic-checkerboard-detector&lt;/a&gt;: 1.2.12-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_actions&quot;&gt;ros-noetic-cob-actions&lt;/a&gt;: 0.7.3-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_common&quot;&gt;ros-noetic-cob-common&lt;/a&gt;: 0.7.3-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_default_env_config&quot;&gt;ros-noetic-cob-default-env-config&lt;/a&gt;: 0.6.12-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_description&quot;&gt;ros-noetic-cob-description&lt;/a&gt;: 0.7.3-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_environments&quot;&gt;ros-noetic-cob-environments&lt;/a&gt;: 0.6.12-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_gazebo_plugins&quot;&gt;ros-noetic-cob-gazebo-plugins&lt;/a&gt;: 0.7.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_gazebo_ros_control&quot;&gt;ros-noetic-cob-gazebo-ros-control&lt;/a&gt;: 0.7.5-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-cob-msgs: 0.7.3-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_srvs&quot;&gt;ros-noetic-cob-srvs&lt;/a&gt;: 0.7.3-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_supported_robots&quot;&gt;ros-noetic-cob-supported-robots&lt;/a&gt;: 0.6.15-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/computer_status_msgs&quot;&gt;ros-noetic-computer-status-msgs&lt;/a&gt;: 2.0.0-2&lt;/li&gt;
+&lt;li&gt;ros-noetic-dnn-detect: 0.1.0-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/easy_markers&quot;&gt;ros-noetic-easy-markers&lt;/a&gt;: 0.3.0-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a&gt;ros-noetic-eiquadprog&lt;/a&gt;: 1.2.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/fetchrobotics/fetch_tools/blob/master/README.md&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-noetic-fetch-tools&lt;/a&gt;: 0.3.2-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-fkie-potree-rviz-plugin: 1.0.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/gmapping&quot;&gt;ros-noetic-gmapping&lt;/a&gt;: 1.4.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/ethz-adrl/ifopt&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-noetic-ifopt&lt;/a&gt;: 2.0.7-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://jsk-docs.readthedocs.io/projects/jsk_recognition/en/latest/imagesift&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-noetic-imagesift&lt;/a&gt;: 1.2.12-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/joy_listener&quot;&gt;ros-noetic-joy-listener&lt;/a&gt;: 0.3.0-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://jsk-docs.readthedocs.io/projects/jsk_recognition/en/latest/jsk_pcl_ros_utils&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-noetic-jsk-pcl-ros-utils&lt;/a&gt;: 1.2.12-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://jsk-docs.readthedocs.io/projects/jsk_recognition/en/latest/jsk_recognition_msgs&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-noetic-jsk-recognition-msgs&lt;/a&gt;: 1.2.12-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://jsk-docs.readthedocs.io/projects/jsk_recognition/en/latest/jsk_recognition_utils&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-noetic-jsk-recognition-utils&lt;/a&gt;: 1.2.12-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/kalman_filter&quot;&gt;ros-noetic-kalman-filter&lt;/a&gt;: 0.3.0-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/kobuki_core&quot;&gt;ros-noetic-kobuki-core&lt;/a&gt;: 0.7.12-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/kobuki_dock_drive&quot;&gt;ros-noetic-kobuki-dock-drive&lt;/a&gt;: 0.7.12-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/kobuki_driver&quot;&gt;ros-noetic-kobuki-driver&lt;/a&gt;: 0.7.12-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/kobuki_ftdi&quot;&gt;ros-noetic-kobuki-ftdi&lt;/a&gt;: 0.7.12-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-lanelet2: 1.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-lanelet2-examples: 1.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-lanelet2-python: 1.1.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/marker_msgs&quot;&gt;ros-noetic-marker-msgs&lt;/a&gt;: 0.0.6-7&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/nmea_navsat_driver&quot;&gt;ros-noetic-nmea-navsat-driver&lt;/a&gt;: 0.6.0-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/people&quot;&gt;ros-noetic-people&lt;/a&gt;: 1.2.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/people_msgs&quot;&gt;ros-noetic-people-msgs&lt;/a&gt;: 1.2.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/people_velocity_tracker&quot;&gt;ros-noetic-people-velocity-tracker&lt;/a&gt;: 1.2.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/cob_description&quot;&gt;ros-noetic-raw-description&lt;/a&gt;: 0.7.3-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://jsk-docs.readthedocs.io/projects/jsk_recognition/en/latest/resized_image_transport&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-noetic-resized-image-transport&lt;/a&gt;: 1.2.12-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/rosbaglive&quot;&gt;ros-noetic-rosbaglive&lt;/a&gt;: 0.3.0-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/schunk_description&quot;&gt;ros-noetic-schunk-description&lt;/a&gt;: 0.6.14-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/schunk_libm5api&quot;&gt;ros-noetic-schunk-libm5api&lt;/a&gt;: 0.6.14-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/schunk_modular_robotics&quot;&gt;ros-noetic-schunk-modular-robotics&lt;/a&gt;: 0.6.14-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/schunk_powercube_chain&quot;&gt;ros-noetic-schunk-powercube-chain&lt;/a&gt;: 0.6.14-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/schunk_sdh&quot;&gt;ros-noetic-schunk-sdh&lt;/a&gt;: 0.6.14-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/schunk_simulated_tactile_sensors&quot;&gt;ros-noetic-schunk-simulated-tactile-sensors&lt;/a&gt;: 0.6.14-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-sdhlibrary-cpp: 0.2.10-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/slam_gmapping&quot;&gt;ros-noetic-slam-gmapping&lt;/a&gt;: 1.4.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/teleop_twist_joy&quot;&gt;ros-noetic-teleop-twist-joy&lt;/a&gt;: 0.1.3-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/stack-of-tasks/tsid&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-noetic-tsid&lt;/a&gt;: 1.4.1-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/ur_client_library&quot;&gt;ros-noetic-ur-client-library&lt;/a&gt;: 0.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-wireless-msgs: 0.1.1-2&lt;/li&gt;
+&lt;li&gt;ros-noetic-wireless-watcher: 0.1.1-2&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/wu_ros_tools&quot;&gt;ros-noetic-wu-ros-tools&lt;/a&gt;: 0.3.0-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://github.com/leggedrobotics/xpp&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-noetic-xpp-msgs&lt;/a&gt;: 1.0.10-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://github.com/leggedrobotics/xpp&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-noetic-xpp-states&lt;/a&gt;: 1.0.10-1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Updated Packages [49]:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/audio_capture&quot;&gt;ros-noetic-audio-capture&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/audio_common&quot;&gt;ros-noetic-audio-common&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/audio_common_msgs&quot;&gt;ros-noetic-audio-common-msgs&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/audio_play&quot;&gt;ros-noetic-audio-play&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/can_msgs&quot;&gt;ros-noetic-can-msgs&lt;/a&gt;: 0.8.4-1 -&amp;gt; 0.8.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/canopen_402&quot;&gt;ros-noetic-canopen-402&lt;/a&gt;: 0.8.4-1 -&amp;gt; 0.8.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/canopen_chain_node&quot;&gt;ros-noetic-canopen-chain-node&lt;/a&gt;: 0.8.4-1 -&amp;gt; 0.8.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/canopen_master&quot;&gt;ros-noetic-canopen-master&lt;/a&gt;: 0.8.4-1 -&amp;gt; 0.8.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/canopen_motor_node&quot;&gt;ros-noetic-canopen-motor-node&lt;/a&gt;: 0.8.4-1 -&amp;gt; 0.8.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/filters&quot;&gt;ros-noetic-filters&lt;/a&gt;: 1.9.0-1 -&amp;gt; 1.9.1-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-gazebo-video-monitor-plugins: 0.4.2-1 -&amp;gt; 0.5.0-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/geometric_shapes&quot;&gt;ros-noetic-geometric-shapes&lt;/a&gt;: 0.7.1-1 -&amp;gt; 0.7.2-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-hfl-driver: 0.0.17-1 -&amp;gt; 0.0.20-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/ixblue_stdbin_decoder&quot;&gt;ros-noetic-ixblue-stdbin-decoder&lt;/a&gt;: 0.1.1-1 -&amp;gt; 0.1.3-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-lanelet2-core: 1.1.0-2 -&amp;gt; 1.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-lanelet2-io: 1.1.0-2 -&amp;gt; 1.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-lanelet2-maps: 1.1.0-2 -&amp;gt; 1.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-lanelet2-projection: 1.1.0-2 -&amp;gt; 1.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-lanelet2-routing: 1.1.0-2 -&amp;gt; 1.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-lanelet2-traffic-rules: 1.1.0-2 -&amp;gt; 1.1.1-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-lanelet2-validation: 1.1.0-2 -&amp;gt; 1.1.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.ros.org/wiki/ROS&quot;&gt;ros-noetic-mk&lt;/a&gt;: 1.15.6-1 -&amp;gt; 1.15.7-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rc_genicam_api&quot;&gt;ros-noetic-rc-genicam-api&lt;/a&gt;: 2.3.4-1 -&amp;gt; 2.4.1-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rc_hand_eye_calibration_client&quot;&gt;ros-noetic-rc-hand-eye-calibration-client&lt;/a&gt;: 3.0.2-1 -&amp;gt; 3.0.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rc_pick_client&quot;&gt;ros-noetic-rc-pick-client&lt;/a&gt;: 3.0.2-1 -&amp;gt; 3.0.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rc_roi_manager_gui&quot;&gt;ros-noetic-rc-roi-manager-gui&lt;/a&gt;: 3.0.2-1 -&amp;gt; 3.0.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rc_silhouettematch_client&quot;&gt;ros-noetic-rc-silhouettematch-client&lt;/a&gt;: 3.0.2-1 -&amp;gt; 3.0.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rc_tagdetect_client&quot;&gt;ros-noetic-rc-tagdetect-client&lt;/a&gt;: 3.0.2-1 -&amp;gt; 3.0.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://roboception.com/rc_visard&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ros-noetic-rc-visard&lt;/a&gt;: 3.0.2-1 -&amp;gt; 3.0.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rc_visard_description&quot;&gt;ros-noetic-rc-visard-description&lt;/a&gt;: 3.0.2-1 -&amp;gt; 3.0.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rc_visard_driver&quot;&gt;ros-noetic-rc-visard-driver&lt;/a&gt;: 3.0.2-1 -&amp;gt; 3.0.4-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-remote-rosbag-record: 0.0.2-1 -&amp;gt; 0.0.4-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.ros.org/wiki/ROS&quot;&gt;ros-noetic-ros&lt;/a&gt;: 1.15.6-1 -&amp;gt; 1.15.7-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/ros_canopen&quot;&gt;ros-noetic-ros-canopen&lt;/a&gt;: 0.8.4-1 -&amp;gt; 0.8.5-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-ros-environment: 1.3.1-1 -&amp;gt; 1.3.2-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.ros.org/wiki/rosbash&quot;&gt;ros-noetic-rosbash&lt;/a&gt;: 1.15.6-1 -&amp;gt; 1.15.7-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/rosboost_cfg&quot;&gt;ros-noetic-rosboost-cfg&lt;/a&gt;: 1.15.6-1 -&amp;gt; 1.15.7-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/rosbuild&quot;&gt;ros-noetic-rosbuild&lt;/a&gt;: 1.15.6-1 -&amp;gt; 1.15.7-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rosclean&quot;&gt;ros-noetic-rosclean&lt;/a&gt;: 1.15.6-1 -&amp;gt; 1.15.7-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/roscreate&quot;&gt;ros-noetic-roscreate&lt;/a&gt;: 1.15.6-1 -&amp;gt; 1.15.7-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/roslang&quot;&gt;ros-noetic-roslang&lt;/a&gt;: 1.15.6-1 -&amp;gt; 1.15.7-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/roslib&quot;&gt;ros-noetic-roslib&lt;/a&gt;: 1.15.6-1 -&amp;gt; 1.15.7-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rosmake&quot;&gt;ros-noetic-rosmake&lt;/a&gt;: 1.15.6-1 -&amp;gt; 1.15.7-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rosunit&quot;&gt;ros-noetic-rosunit&lt;/a&gt;: 1.15.6-1 -&amp;gt; 1.15.7-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/rqt_tf_tree&quot;&gt;ros-noetic-rqt-tf-tree&lt;/a&gt;: 0.6.1-1 -&amp;gt; 0.6.2-1&lt;/li&gt;
+&lt;li&gt;ros-noetic-sick-safetyscanners: 1.0.5-2 -&amp;gt; 1.0.6-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/socketcan_bridge&quot;&gt;ros-noetic-socketcan-bridge&lt;/a&gt;: 0.8.4-1 -&amp;gt; 0.8.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://wiki.ros.org/socketcan_interface&quot;&gt;ros-noetic-socketcan-interface&lt;/a&gt;: 0.8.4-1 -&amp;gt; 0.8.5-1&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://ros.org/wiki/sound_play&quot;&gt;ros-noetic-sound-play&lt;/a&gt;: 0.3.7-1 -&amp;gt; 0.3.8-1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Removed Packages [0]:&lt;/h3&gt;
+&lt;p&gt;Thanks to all ROS maintainers who make packages available to the ROS community. The above list of packages was made possible by the work of the following maintainers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alexander W. Winkler&lt;/li&gt;
+&lt;li&gt;Austin Hendrix&lt;/li&gt;
+&lt;li&gt;Bruno Brito&lt;/li&gt;
+&lt;li&gt;Christian Rauch&lt;/li&gt;
+&lt;li&gt;Dan Lazewatsky&lt;/li&gt;
+&lt;li&gt;Daniel Stonier&lt;/li&gt;
+&lt;li&gt;Dave Coleman&lt;/li&gt;
+&lt;li&gt;David V. Lu!!&lt;/li&gt;
+&lt;li&gt;Dirk Thomas&lt;/li&gt;
+&lt;li&gt;Ed Venator&lt;/li&gt;
+&lt;li&gt;Eric Relson&lt;/li&gt;
+&lt;li&gt;Evan Flynn&lt;/li&gt;
+&lt;li&gt;Fabian Poggenhans&lt;/li&gt;
+&lt;li&gt;Felix Exner&lt;/li&gt;
+&lt;li&gt;Felix Messmer&lt;/li&gt;
+&lt;li&gt;Felix Ruess&lt;/li&gt;
+&lt;li&gt;Florian Weisshardt&lt;/li&gt;
+&lt;li&gt;Guilhem Saurel&lt;/li&gt;
+&lt;li&gt;Isaac I.Y. Saito&lt;/li&gt;
+&lt;li&gt;Jan-Hendrik Pauls&lt;/li&gt;
+&lt;li&gt;Jannik Abbenseth&lt;/li&gt;
+&lt;li&gt;Jim Vaughan&lt;/li&gt;
+&lt;li&gt;Kei Okada&lt;/li&gt;
+&lt;li&gt;Lennart Puck&lt;/li&gt;
+&lt;li&gt;Markus Bader&lt;/li&gt;
+&lt;li&gt;Mathias Lüdtke&lt;/li&gt;
+&lt;li&gt;Mike Purvis&lt;/li&gt;
+&lt;li&gt;Monika Florek-Jasinska&lt;/li&gt;
+&lt;li&gt;Naoya Yamaguchi&lt;/li&gt;
+&lt;li&gt;Nick Lamprianidis&lt;/li&gt;
+&lt;li&gt;Olivier Stasse&lt;/li&gt;
+&lt;li&gt;ROS Orphaned Package Maintainers&lt;/li&gt;
+&lt;li&gt;Romain Reignier&lt;/li&gt;
+&lt;li&gt;Ryohei Ueda&lt;/li&gt;
+&lt;li&gt;Timo Röhling&lt;/li&gt;
+&lt;li&gt;Tully Foote&lt;/li&gt;
+&lt;li&gt;Yohei Kakiuchi&lt;/li&gt;
+&lt;li&gt;Yoshito Okada&lt;/li&gt;
+&lt;li&gt;Younghun Ju&lt;/li&gt;
+&lt;/ul&gt;
+            &lt;p&gt;&lt;small&gt;1 post - 1 participant&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/new-packages-for-noetic-2020-10-09/16758&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Fri, 09 Oct 2020 21:55:32 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: ROS Index domain has expired</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16756</guid>
+	<link>https://discourse.ros.org/t/ros-index-domain-has-expired/16756</link>
+	<description>&lt;p&gt;The &lt;a href=&quot;https://index.ros.org&quot;&gt;https://index.ros.org&lt;/a&gt; domain seems to have expired. Does anyone know what is going on with that?&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;7 posts - 6 participants&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/ros-index-domain-has-expired/16756&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Fri, 09 Oct 2020 19:39:41 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: ROS News for the Week of October 4th, 2020</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16755</guid>
+	<link>https://discourse.ros.org/t/ros-news-for-the-week-of-october-4th-2020/16755</link>
+	<description>&lt;h1&gt;
+&lt;img alt=&quot;image&quot; height=&quot;375&quot; src=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/f/fc59520cca818b0f4d97dfeaa3214c8b65055101.jpeg&quot; width=&quot;485&quot; /&gt;&lt;br /&gt;
+&lt;a href=&quot;https://discourse.ros.org/t/introducing-an-open-source-3d-printed-rover-powered-by-ros/16713&quot;&gt;ExoMy ROS Rover from the European Space Agency&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img alt=&quot;autoware&quot; height=&quot;202&quot; src=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/9/921293210a8b9911dbcb9d17f1b7aa3ce11e27c3.gif&quot; width=&quot;421&quot; /&gt;&lt;br /&gt;
+&lt;a href=&quot;https://discourse.ros.org/t/autonomous-valet-parking-demonstration-and-virtual-hack-a-thon-new-date/16367&quot;&gt;&lt;em&gt;Autoware Autonomous Valet Parking Hackathon Results&lt;/em&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+ROS News for the Week of October 4th, 2020&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;ROS World / T-Shirts&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://roscon.ros.org/world/2020/&quot;&gt;REGISTER FOR &lt;img alt=&quot;:ros:&quot; class=&quot;emoji emoji-custom&quot; src=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/4/45531b551e689d82d6aec0344860112aeeea2d7b.png?v=9&quot; title=&quot;:ros:&quot; /&gt;  WORLD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/ros-world-sponsors-t-shirts/16449&quot;&gt;Buy a ROS World T-Shirt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/ros-world-program-announced/16542&quot;&gt;Check out the ROS World Schedule&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://teespring.com/ignitino-dome?pid=211&amp;amp;cid=5293&quot;&gt;Ignition Dome T-shirts Sale&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;News&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://hbr.org/2020/10/robots-save-us-time-but-do-they-make-us-happier&quot;&gt;Do robots make us happier?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spectrum.ieee.org/automaton/robotics/drones/ai-powered-drone-extreme-acrobatics&quot;&gt;Drone Acrobatics using Gazebo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.darpa.mil/news-events/2020-10-07&quot;&gt;DARPA Racer Program Announcement&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/hacktoberfest-help/16645&quot;&gt;Hacktoberfest &amp;amp; ROS / Ignition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hackaday.com/2020/10/08/3d-printed-scara-arm-with-3d-printer-components/&quot;&gt;3D Printed SCARA Arm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hackaday.com/2020/10/08/light-tracking-robot-relies-on-ldrs/&quot;&gt;Light Tracking Robot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hackaday.com/2020/10/07/aruna-an-open-source-rov-for-affordable-research/&quot;&gt;Open Source ROV&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.kickstarter.com/projects/petoi/bittle/posts&quot;&gt;Petoi Bittle – toy quadruped that can run ROS closes funding&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Talks / Events&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://rosindustrial.org/rosindustrial-conference-2020&quot;&gt;8th ROS-Industrial Conference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.eventbrite.com/e/ada-lovelace-day-2020-celebration-of-women-in-robotics-tickets-124178783083&quot;&gt;10/13/2020 Ada Lovelace Day Women in Robotics Meetup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hbr.org/2020/10/robots-save-us-time-but-do-they-make-us-happier&quot;&gt;Do robots make us happier?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ROS Packages and Tutorials&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/request-for-comment-per-package-documentation-requrements/16699&quot;&gt;&lt;strong&gt;RFC: Per Package ROS Documentation Requirements &amp;lt;-- PLEASE READ&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.theconstructsim.com/77-building-robotics-projects-on-youtube-with-james-bruton/&quot;&gt;James Burton  on the Construct&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.hadabot.com/ros2-navigation-tf2-tutorial-using-turtlesim.html&quot;&gt;Great ROS 2 TF / Nav Tutorial on Hadabot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cvlibs.net/datasets/kitti-360/&quot;&gt;New KITTI-360 Semantic Autonomy Dataset with over the top video.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/unr-arl/gbplanner_ros&quot;&gt;Univ. Nevada Reno ARL releases GBPlanner Package from DARPA SubT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://roboticsbackend.com/ros2-launch-file-example/&quot;&gt;Launch Files in ROS 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://clearpathrobotics.com/blog/2020/01/scalopus-tracing-framework-c-python/&quot;&gt;Clearpath: Scalopus – a tracing / performance analysis framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.apex.ai/post/apex-autonomy-1-2-0-release-announcement&quot;&gt;Apex Autonomy 1.2 Released&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/micro-ros-zephyr/16723&quot;&gt;MicroROS / Zephyr Partnership&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/3nh01x3QeV0&quot;&gt;Welding with ROS-I&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.autoware.org/post/autoware-does-autonomous-valet-parking&quot;&gt;Autoware Autonomous Valet Parking Hackathon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.researchgate.net/publication/343960992_USV_Path-Following_Control_Based_On_Deep_Reinforcement_Learning_and_Adaptive_Control&quot;&gt;USV Path-Following Control Based On Deep Reinforcement Learning and Adaptive Control using ROS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/introducing-an-open-source-3d-printed-rover-powered-by-ros/16713&quot;&gt;European Space Agency ExoMy ROS Rover&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=YMG6DWEqv5g&amp;amp;ab_channel=Clearpath&quot;&gt;Clearpath ROS Network Troubleshooting Video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/rubiks-cube-solving-arm/16691&quot;&gt;Rubik’s Cube Solving with ROS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Questions of the Week&lt;/strong&gt;&lt;br /&gt;
+&lt;em&gt;This week I grabbed a few questions that seem to crop up regularly and some interesting ideas. I am pointing these out as they would make great blog posts if someone wanted to write about them. As always please take an hour to help out the ROS Answers community.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://answers.ros.org/question/363101/working-of-ros-subscribers-in-an-arduino-code/&quot;&gt;Help with ROS Arduino&lt;/a&gt; – What can we do to make the docs better for ROS Arduino?&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://answers.ros.org/question/363101/working-of-ros-subscribers-in-an-arduino-code/&quot;&gt;Euler Angles from Quats in ROS 2&lt;/a&gt; – Anyone want to write a guide / tool for common rotation transforms?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://answers.ros.org/question/362862/is-it-possible-to-use-ros-in-google-colab/&quot;&gt;Can we get ROS Running in Google Collab / Jupyter Notebooks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;p&gt;&lt;em&gt;Did I miss anything? If you released a package this week feel free to let everyone know. If you have events scheduled feel free to let everyone know.&lt;/em&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;1 post - 1 participant&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/ros-news-for-the-week-of-october-4th-2020/16755&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Fri, 09 Oct 2020 19:22:20 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: Request for Comment: Per Package Documentation Requrements</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16699</guid>
+	<link>https://discourse.ros.org/t/request-for-comment-per-package-documentation-requrements/16699</link>
+	<description>&lt;p&gt;We’re looking for feedback on our requirements for our package documentation project for ROS 2. We’d like to hear ideas from package maintainers and users of ROS 2 documentation, especially if it seems like there’s a crucial blindspot in our assumptions about per-package documentation necessities. At this time, the document is not going to address implementation details, only high-level requirements.&lt;/p&gt;
+&lt;p&gt;“Per-package”, “package-specific”, and “package documentation” all refer to any docs solely focused on a single package, including auto-generated content like API docs as well as manually created content like readmes, changelogs, tutorials, etc.&lt;/p&gt;
+&lt;p&gt;We envision all documentation, including per-package docs, hosted under a single domain, &lt;a href=&quot;http://docs.ros.org&quot;&gt;docs.ros.org&lt;/a&gt;. Package documentation will be maintained only within a package’s repository, and automatically built into the documentation site with the rest of our generic ROS 2 content (what’s on &lt;a href=&quot;http://index.ros.org&quot;&gt;index.ros.org&lt;/a&gt; now), organized intuitively through the site’s structure and under sensible URLs. We hope this will encourage consistent, quality package documentation, and address the issues of discoverability and spread that ROS 2 docs have seen so far.&lt;/p&gt;
+&lt;p&gt;The requirements and context behind each are listed in this design document.&lt;/p&gt;
+&lt;aside class=&quot;onebox githubpullrequest&quot;&gt;
+  &lt;header class=&quot;source&quot;&gt;
+      &lt;a href=&quot;https://github.com/ros2/design/pull/301&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;github.com/ros2/design&lt;/a&gt;
+  &lt;/header&gt;
+  &lt;article class=&quot;onebox-body&quot;&gt;
+    &lt;div class=&quot;github-row&quot;&gt;
+  &lt;div class=&quot;github-icon-container&quot; title=&quot;Pull Request&quot;&gt;
+    &lt;svg class=&quot;github-icon&quot; height=&quot;60&quot; viewBox=&quot;0 0 12 16&quot; width=&quot;60&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path d=&quot;M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;github-info-container&quot;&gt;
+    &lt;h4&gt;
+      &lt;a href=&quot;https://github.com/ros2/design/pull/301&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Per-Package Documentation&lt;/a&gt;
+    &lt;/h4&gt;
+
+    &lt;div class=&quot;branches&quot;&gt;
+      &lt;code&gt;ros2:gh-pages&lt;/code&gt; ← &lt;code&gt;ros2:per_package_documentation&lt;/code&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;github-info&quot;&gt;
+      &lt;div class=&quot;date&quot;&gt;
+        opened &lt;span class=&quot;discourse-local-date&quot;&gt;04:38PM - 05 Oct 20 UTC&lt;/span&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;user&quot;&gt;
+        &lt;a href=&quot;https://github.com/maryaB-osr&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+          &lt;img alt=&quot;maryaB-osr&quot; class=&quot;onebox-avatar-inline&quot; height=&quot;20&quot; src=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/2/2b0c3cca5b862749f790e542a852635ef683c447.png&quot; width=&quot;20&quot; /&gt;
+          maryaB-osr
+        &lt;/a&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;lines&quot; title=&quot;4 commits changed 1 files with 115 additions and 0 deletions&quot;&gt;
+        &lt;a href=&quot;https://github.com/ros2/design/pull/301/files&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+          &lt;span class=&quot;added&quot;&gt;+115&lt;/span&gt;
+          &lt;span class=&quot;removed&quot;&gt;-0&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/article&gt;
+  &lt;div class=&quot;onebox-metadata&quot;&gt;
+    
+    
+  &lt;/div&gt;
+  &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Please leave a comment on the pull request with your feedback.&lt;/p&gt;
+&lt;p&gt;Note: These requirements do not address the docs site as a whole or the generic documentation. We are also preparing updates for the other elements of the hosted documentation such as extending support for versioning and internationalization, as well as consolidating the documentation to be more accessible. With that in mind, please focus your feedback on per-package documentation&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;1 post - 1 participant&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/request-for-comment-per-package-documentation-requrements/16699&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Mon, 05 Oct 2020 23:24:40 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: Announcing gazebo_video_monitor_plugins package</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16677</guid>
+	<link>https://discourse.ros.org/t/announcing-gazebo-video-monitor-plugins-package/16677</link>
+	<description>&lt;p&gt;Dear community,&lt;/p&gt;
+&lt;p&gt;I’m happy to announce &lt;a href=&quot;http://wiki.ros.org/gazebo_video_monitor_plugins&quot;&gt;gazebo_video_monitor_plugins&lt;/a&gt;, a package that enables you to create different types of videos of your Gazebo simulations.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; height=&quot;450&quot; src=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/d/d19e19b5ef4fb96f322816de4e89eb36586d169e.gif&quot; width=&quot;600&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I developed these plugins to ease debugging efforts by providing better context at every moment in a robot’s operation, and for creating demo videos.&lt;/p&gt;
+&lt;p&gt;You can record simple videos with a single camera mounted on a robot, or more advanced videos with a multi-camera setup, where you or your robot can be the director. In the latter case, for example, you could be selecting different views depending on what the robot currently does.&lt;/p&gt;
+&lt;p&gt;You can find a set of &lt;a href=&quot;http://wiki.ros.org/gazebo_video_monitor_plugins/Tutorials&quot;&gt;tutorials&lt;/a&gt; (WIP) at the package’s wiki page, and the &lt;a href=&quot;https://github.com/nlamprian/gazebo_video_monitor_plugins&quot; rel=&quot;noopener nofollow ugc&quot;&gt;source&lt;/a&gt;  on GitHub.&lt;/p&gt;
+&lt;p&gt;The package is currently available for ROS Melodic and Noetic.&lt;/p&gt;
+&lt;p&gt;I would love to get your feedback on the plugins, as well as how you would make use of them.&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;4 posts - 3 participants&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/announcing-gazebo-video-monitor-plugins-package/16677&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Mon, 05 Oct 2020 03:18:43 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: Survey results: robotics community needs in terms of simulator</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16674</guid>
+	<link>https://discourse.ros.org/t/survey-results-robotics-community-needs-in-terms-of-simulator/16674</link>
+	<description>&lt;p&gt;Hi everyone,&lt;/p&gt;
+&lt;p&gt;We posted today on our &lt;a href=&quot;https://github.com/Liquid-ai/Plankton/wiki&quot; rel=&quot;noopener nofollow ugc&quot;&gt;github’s wiki&lt;/a&gt; the anonymized raw data from the survey we conducted this summer on the robotics community needs in terms of simulator.&lt;/p&gt;
+&lt;p&gt;Some insights from the survey:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The respondents were mainly robotics researchers and engineers that use simulation tools at least a few times a week&lt;/li&gt;
+&lt;li&gt;Their primary areas of research for the most part are computer vision and planning&lt;/li&gt;
+&lt;li&gt;Concerning the simulators used by the respondents: gazebo (9 or 11) is the main tool for them. Gazebo ignition is not well known among the respondents, and for those who know it, they do not use it. Unity is known by all by few have used it.&lt;/li&gt;
+&lt;li&gt;You will find the assessment of the satisfaction of users regarding their tools along several technical and non technical criteria&lt;/li&gt;
+&lt;li&gt;The survey shows also what are the most important criteria for choosing a simulator: physical fidelity / sim to real capabilities / possibilities to customize the simulator are the 3 main cited technical criteria&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This survey highlights a lot more facts and trends, as it goes deeper into the uses and requirements of users than most surveys we saw before. There is also a specific focus on simulation for maritime robotics.&lt;br /&gt;
+You will find on our wiki other surveys we found interesting on simulation needs for robotics practitioners. We will complete our wiki with more data, and with our analysis of these data so that other simulation projects can jump-start more quickly.&lt;/p&gt;
+&lt;p&gt;These data are the base from which we developed &lt;a href=&quot;https://github.com/Liquid-ai/Plankton&quot; rel=&quot;noopener nofollow ugc&quot;&gt;Plankton&lt;/a&gt;, the open source simulator for maritime robotics research we released &lt;a href=&quot;https://discourse.ros.org/t/plankton-open-source-simulator-for-maritime-robotics-researchers-compatible-with-ros-2/16616&quot;&gt;4 days ago&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We hope you will find this useful! &lt;img alt=&quot;:slight_smile:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/slight_smile.png?v=9&quot; title=&quot;:slight_smile:&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Loïc&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;1 post - 1 participant&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/survey-results-robotics-community-needs-in-terms-of-simulator/16674&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Mon, 05 Oct 2020 01:57:42 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: ROS News for the Week of 9/28/2020</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16648</guid>
+	<link>https://discourse.ros.org/t/ros-news-for-the-week-of-9-28-2020/16648</link>
+	<description>&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;lightbox-wrapper&quot;&gt;&lt;a class=&quot;lightbox&quot; href=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/e/eed7a8b98553edf84fd10736754b4d709eab58e3.jpeg&quot; title=&quot;image&quot;&gt;&lt;img alt=&quot;image&quot; height=&quot;375&quot; src=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/optimized/2X/e/eed7a8b98553edf84fd10736754b4d709eab58e3_2_359x375.jpeg&quot; width=&quot;359&quot; /&gt;&lt;div class=&quot;meta&quot;&gt;&lt;svg class=&quot;fa d-icon d-icon-far-image svg-icon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;use&gt;&lt;/use&gt;&lt;/svg&gt;&lt;span class=&quot;filename&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;informations&quot;&gt;750×782 196 KB&lt;/span&gt;&lt;svg class=&quot;fa d-icon d-icon-discourse-expand svg-icon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;use&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;em&gt;Ignition Dome was Released Yesterday&lt;/em&gt; – buy a t-shirt!&lt;p&gt;&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;&lt;img alt=&quot;ezgif-6-b7d85501560c&quot; height=&quot;238&quot; src=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/7/74f691ebc94489ab3b5bdf990bfa48f31455aab4.gif&quot; width=&quot;450&quot; /&gt;&lt;br /&gt;
+&lt;a href=&quot;https://twitter.com/lentinjoseph/status/1311373972613730304&quot;&gt;&lt;em&gt;Drawing with TurtleSim&lt;/em&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;ROS News for the Week of 9/28/2020&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;ROS WORLD&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://roscon.ros.org/world/2020/&quot;&gt;&lt;em&gt;REGISTER FOR &lt;img alt=&quot;:ros:&quot; class=&quot;emoji emoji-custom&quot; src=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/4/45531b551e689d82d6aec0344860112aeeea2d7b.png?v=9&quot; title=&quot;:ros:&quot; /&gt;  WORLD&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/ros-world-2020-call-for-lightning-talk-videos/16222&quot;&gt;Please submit a ROS World lightning talk-DUE NEXT WEDNESDAY OCTOBER 7th&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/ros-world-sponsors-t-shirts/16449&quot;&gt;Buy a ROS World T-Shirt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/ros-world-program-announced/16542&quot;&gt;Check out the ROS World Schedule&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Events&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://devsummit.arm.com/agenda/?search=Katherine%20Scott#/&quot;&gt;I’ll be speaking ARM Dev Summit on ROS and ARM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.eventbrite.de/e/rosin-ftp-webinar-session-2-tickets-121377299771&quot;&gt;ROSIn Focused Technical Program Webinar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://rosindustrial.org/rosindustrial-conference-2020&quot;&gt;8th ROS-Industrial Conference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Simulation&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.openrobotics.org/blog/2019/12/11/ignition-dome-released&quot;&gt;Ignition Dome Released&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://app.ignitionrobotics.org/chapulina/fuel/worlds/Ignition%20Dome%20demo&quot;&gt;Ignition Dome Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://teespring.com/ignitino-dome?pid=211&amp;amp;cid=5293&quot;&gt;Ignition Dome T-shirts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/plankton-open-source-simulator-for-maritime-robotics-researchers-compatible-with-ros-2/16616&quot;&gt;Plankton Simulator for Maritime Robotics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;News&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.wired.com/story/meet-curly-the-curling-robot-that-beats-the-pros/?utm_medium=social&amp;amp;mbid=social_twitter&amp;amp;utm_socialtype=owned&amp;amp;utm_source=twitter&amp;amp;utm_brand=wired&quot;&gt;Curling Robot from Korea&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/michaelossmann/status/1311543614795730944&quot;&gt;Michael Ossman (HackRF fame) builds a Rolling Robot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spectrum.ieee.org/automaton/robotics/home-robots/toyota-research-ceiling-mounted-home-robot&quot;&gt;Toyota Research “GladOS”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.kickstarter.com/projects/charmedlabs/vizy&quot;&gt;Raspberry Pi Machine Vision Camera from the creator of the CMU PixyCam&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=MWmek5i-U98&amp;amp;feature=youtu.be&amp;amp;ab_channel=SmileRobotics&quot;&gt;Restaurant Clean Up Robot using ROS + Rust&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.apex.ai/post/a-brief-history-of-automated-driving-part-three-toward-product-development&quot;&gt;History of Automated Driving from Apex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=h_7xkxqCnUc&amp;amp;ab_channel=Dave%27sArmoury&quot;&gt;Rubik’s Cube Solving Robot with a ROS / Universal Arm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spectrum.ieee.org/automaton/robotics/robotics-software/darpa-subt-cave-circuit-competition&quot;&gt;17 Teams to Take Part in DARPA SubT Challenge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hackaday.io/project/167247-faze4-robotic-arm&quot;&gt;Open Source Six Axis arm on Hackaday.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/hacktoberfest-help/16645&quot;&gt;Hacktoberfest Call for Projects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;ROS Packages / Tutorials&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://roboticsbackend.com/create-a-ros2-cpp-package/&quot;&gt;How to create a ROS 2 CPP Package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.allisonthackston.com/articles/bridging_ros_ros2.html&quot;&gt;ROS1 to ROS2 Bridge Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://moveit.ros.org/moveit/ros/noetic/2020/09/28/moveit-noetic.html&quot;&gt;MoveIt on Noetic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rosin-project.eu/ftp/rosinps&quot;&gt;ROSin FTP Update on Indoor Positioning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/new-packages-for-kinetic-kame-2020-09-30/16609&quot;&gt;44 Updated and 4 new Kinetic Kame Packages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Shilpaj1994/TurtleSim-Sketch&quot;&gt;Drawing with TurtleSim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/discovery-in-micro-ros/16611&quot;&gt;MicroROS Discovery Server&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gDcA0UjtgIA&amp;amp;feature=youtu.be&amp;amp;t=701&amp;amp;utm_campaign=meetedgar&amp;amp;utm_medium=social&amp;amp;utm_source=meetedgar.com&amp;amp;ab_channel=DLG-Feldtage&quot;&gt;ROS Ag on Mechanical Weeding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://learn.ubiquityrobotics.com/fiducials?utm_campaign=meetedgar&amp;amp;utm_medium=social&amp;amp;utm_source=meetedgar.com&quot;&gt;April Tags localization Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/nav2-keep-out-zone-support-now-available-and-meeting-oct-15-cancelled/16633&quot;&gt;Nav2 Keep Out and Update&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/ros-on-windows-optimized-camera-capture-and-rtsp-streaming-node-for-ros-on-windows/16643&quot;&gt;ROS Cameras on Windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/best-practices-for-robot-testing/16608/6&quot;&gt;Best Practices for ROS Testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/october-quality-assurance-meeting-thursday-october-1st-2020/16560/4&quot;&gt;Quality Assurance Working Group Meeting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.ros.org/t/ansible-ros-master-role/16619&quot;&gt;Ansible ROS Master Role&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Questions of the Week&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Please help answer the following questions.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://answers.ros.org/question/362460/i-need-a-pan-tilt-mount-that-i-can-use-with-a-2-kg-camera-can-you-recommend-some-that-are-having-ros-driver/&quot;&gt;Anyone have a ROS PTZ Camera Driver?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://answers.ros.org/question/362685/cross-platform-mobile-application-development/&quot;&gt;Cross platform ROS mobile development?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://answers.ros.org/question/362335/unable-to-build-ros-foxy-for-armv7/&quot;&gt;Arm32 Supported for Foxy?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+            &lt;p&gt;&lt;small&gt;4 posts - 2 participants&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/ros-news-for-the-week-of-9-28-2020/16648&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Fri, 02 Oct 2020 19:32:02 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: Hacktoberfest Help!</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16645</guid>
+	<link>https://discourse.ros.org/t/hacktoberfest-help/16645</link>
+	<description>&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;lightbox-wrapper&quot;&gt;&lt;a class=&quot;lightbox&quot; href=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/original/2X/8/81755259684735b89c69c492b7f753b4bf84c29e.png&quot; title=&quot;image&quot;&gt;&lt;img alt=&quot;image&quot; height=&quot;194&quot; src=&quot;https://aws1.discourse-cdn.com/business7/uploads/ros/optimized/2X/8/81755259684735b89c69c492b7f753b4bf84c29e_2_345x194.png&quot; width=&quot;345&quot; /&gt;&lt;div class=&quot;meta&quot;&gt;&lt;svg class=&quot;fa d-icon d-icon-far-image svg-icon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;use&gt;&lt;/use&gt;&lt;/svg&gt;&lt;span class=&quot;filename&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;informations&quot;&gt;770×434 39.5 KB&lt;/span&gt;&lt;svg class=&quot;fa d-icon d-icon-discourse-expand svg-icon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;use&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Hi Everyone,&lt;/p&gt;
+&lt;p&gt;It is &lt;a href=&quot;https://hacktoberfest.digitalocean.com/&quot;&gt;HacktoberFest&lt;/a&gt; again which is a great chance to get more people involved with open source, ROS, and Gazebo. The ROS community is generally very welcoming to new contributors and Hacktoberfest is a great chance to bring new developers into the fold. I wanted to take a minute to make some suggestions about what constitutes a “good” pull request and point out where and how we think Hacktoberfest participants can make meaningful and positive contributions to ROS.&lt;/p&gt;
+&lt;p&gt;In general, a good pull request makes a meaningful improvement to a project. Some maintainers of large projects outside of ROS have raised concerns about the quality and quantity of pull requests coming from Hacktoberfest. While we like to think that all PRs are good PRs, trivial and subjective PRs aren’t particularly good for either the reviewer or the submitter, and do very little to further a project or the education on new contributors. In fact, trivial pull requests may actually do harm as they take valuable time away from busy maintainers, prevent the submitter from making more meaningful contributions. To help make sure everyone’s Hacktoberfest experience a good one I’ve put together a short guide to get Hacktober students plugged into ROS and make the experience a positive one for all.&lt;/p&gt;
+&lt;p&gt;Listed below are a few examples of small but meaningful contributions that help maintainers and are  a good place to start for Hacktoberfest:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Most projects triage issues and features, and may even have a “good first issue” tag. These issues are a great place to start as the project has explicitly listed them as a need.&lt;/li&gt;
+&lt;li&gt;Unit Test Improvements
+&lt;ul&gt;
+&lt;li&gt;Adding unit tests that improve overall unit test coverage.&lt;/li&gt;
+&lt;li&gt;Compacting repeated code into test fixtures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Documentation improvements that:
+&lt;ul&gt;
+&lt;li&gt;Provide concrete and non-trivial examples of how to use an API. Some repositories have an “examples” directory where these artifacts live.&lt;/li&gt;
+&lt;li&gt;Cross reference documentation with supporting materials or original sources.&lt;/li&gt;
+&lt;li&gt;Improve installation instructions for supported but not well documented operating systems.&lt;/li&gt;
+&lt;li&gt;API how-tos that document common use cases succinctly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Meaningful software improvements:
+&lt;ul&gt;
+&lt;li&gt;Refactoring large code blocks (~&amp;gt;100 lines) while maintaining the API and backwards compatibility.&lt;/li&gt;
+&lt;li&gt;Specific and meaningful updates to warning and error messages.&lt;/li&gt;
+&lt;li&gt;Addressing lingering warning messages.&lt;/li&gt;
+&lt;li&gt;Addressing documented and ticketed bugs.&lt;/li&gt;
+&lt;li&gt;Fixing issues introduced by new versions of upstream packages.&lt;/li&gt;
+&lt;li&gt;Upgrading ROS packages between ROS releases or ROS versions. Note that this is something usually done by a more experienced developer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Miscellaneous
+&lt;ul&gt;
+&lt;li&gt;Adding CI features that move the package up the &lt;a href=&quot;https://www.ros.org/reps/rep-2004.html&quot;&gt;REP-2004 guidelines&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Making a good pull request isn’t just about adding meaningful code; it should also be about lessening the burden on the maintainer, especially during Hacktoberfest. The most effective way to work well with project maintainers is to follow the rules and norms for a given project. The best way to do this is to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;KNOW your project. If you are just starting out it might be best to find a place that suits your skill level. A small, friendly, python utility library may be a better starting point for a new developer than the Linux kernel. Similarly in ROS it might be better to start with a smaller ROS package (like a gazebo plugin, or a hardware driver) than to dive right in to core components like rcl cpp.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;READ the contributors file and understand what is necessary for a PR to be merged.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://index.ros.org/doc/ros2/Contributing/&quot;&gt;The ROS 2 contributors guide can be found here. &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ignitionrobotics.org/docs/all/contributing&quot;&gt;The Ignition contributors guide can be found here.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;UNDERSTAND the project norms. For code contributions many projects will expect to see that your pull request has documentation, unit and integration tests, passes linting and static analysis, meets the specified coding standards, and has a developer certificate of origin. Look at previous pull requests to understand the process the maintainers have used in the past and follow it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;FAMILIARIZE yourself with the project before you code. Before you begin you should be able to build the project and run its unit tests. Make sure your IDE is configured to handle any formatting or linting requirements of the project.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Finally, make sure that you have met all of the project requirements before you issue your PR. Did your code compile without warnings? Did you run the unit tests successfully? Did you build the documentation? If the maintainer asks for changes please repeat this process before re-issuing your PR.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you need help we have our own &lt;a href=&quot;https://answers.ros.org/questions/&quot;&gt;question and answer site ROS Answers&lt;/a&gt;. This is a great place to ask your question and search for answers.&lt;/p&gt;
+&lt;p&gt;To help make sure everyone has a good experience this year (both hackers and maintainers) we’ve put together a list of projects that are happy to have Hacktoberfest students contribute. Right now that list includes the full set of &lt;a href=&quot;https://github.com/ignitionrobotics/ign-gazebo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22&quot;&gt;Ignition libraries&lt;/a&gt;, &lt;a href=&quot;https://github.com/ros-planning/navigation2/labels/good%20first%20issue&quot;&gt;the NavStack&lt;/a&gt;, and &lt;a href=&quot;https://github.com/ros2/ros2_documentation&quot;&gt;the ROS 2 Docs&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If you maintain a ROS package and would like help with, and you are willing to mentor students, please let us know in the comments below.&lt;/strong&gt; This is a great opportunity to get an extra set of hands to help upgrade your ROS repository to the latest version, or take care of longstanding issues.&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;2 posts - 1 participant&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/hacktoberfest-help/16645&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Fri, 02 Oct 2020 17:43:58 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: ROS on Windows: Optimized Camera Capture and RTSP Streaming node for ROS on Windows</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16643</guid>
+	<link>https://discourse.ros.org/t/ros-on-windows-optimized-camera-capture-and-rtsp-streaming-node-for-ros-on-windows/16643</link>
+	<description>&lt;h1&gt;Optimized Camera Capture and RTSP Streaming node for ROS on Windows&lt;/h1&gt;
+&lt;p&gt;Hi All,&lt;/p&gt;
+&lt;p&gt;Weâ€™re pleased to announce the &lt;a href=&quot;https://github.com/ms-iot/ros_msft_camera&quot; rel=&quot;noopener nofollow ugc&quot;&gt;&lt;code&gt;ros_msft_camera&lt;/code&gt;&lt;/a&gt; node for ROS on Windows. This node directly interacts with &lt;a href=&quot;https://docs.microsoft.com/en-us/windows/win32/medfound/microsoft-media-foundation-sdk&quot; rel=&quot;noopener nofollow ugc&quot;&gt;Media Foundation&lt;/a&gt; APIs to bring camera input into ROS without the overhead of existing nodes based on OpenCV.&lt;/p&gt;
+&lt;p&gt;With this node, ROS applications can be built around video from any camera that Windows supports - including USB, &lt;a href=&quot;https://blogs.windows.com/windowsdeveloper/2019/10/15/announcing-windows-10-support-for-network-cameras/&quot; rel=&quot;noopener nofollow ugc&quot;&gt;ONVIF IP Cameras&lt;/a&gt; and more.&lt;/p&gt;
+&lt;p&gt;In addition to video ingestion, this node includes a lightweight, full-featured RTSP server implementation for real-time robot telepresence. The server supports H.264 over RTSP or RTSPS (TLS), again optimized using the codecs integrated into Windows. For more information on the RTSP server, please see the &lt;a href=&quot;https://github.com/microsoft/Windows-Camera/tree/release/NetworkVideoStreamer_1_0&quot; rel=&quot;noopener nofollow ugc&quot;&gt;&lt;code&gt;Windows-Camera&lt;/code&gt;&lt;/a&gt; GitHub repository.&lt;/p&gt;
+&lt;p&gt;Regards,&lt;/p&gt;
+&lt;p&gt;Sudhanshu and the ROS@Microsoft team&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;1 post - 1 participant&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/ros-on-windows-optimized-camera-capture-and-rtsp-streaming-node-for-ros-on-windows/16643&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Fri, 02 Oct 2020 16:37:09 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: Survey on Faults/Errors in Robotic Systems</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16640</guid>
+	<link>https://discourse.ros.org/t/survey-on-faults-errors-in-robotic-systems/16640</link>
+	<description>&lt;p&gt;With the increasing use of robots in industry, our working world is in upheaval. There is a steady need for robots that execute their tasks robustly. However, robots are susceptible to different kinds of errors and faults during their lifecycle.  Robot developers put a lot of effort in creating reliable fault-tolerant applications. However, there are still unexpected or unknown errors that cannot be adequately handled.&lt;/p&gt;
+&lt;p&gt;Our team at Fraunhofer IPA, Stuttgart would like to have more information about the types of faults occurring in robotic systems and if there is an industrial requirement for a new tool for monitoring and detecting these faults. To better understand the needs of such a fault handling and diagnosis tool in the robotic industry, we are conducting an online survey. We would greatly appreciate it if you could fill out the survey below.&lt;/p&gt;
+&lt;p&gt;We will &lt;strong&gt;open-source&lt;/strong&gt; the feedback received to our community shortly after closing the survey. Subsequently, we would organize an online workshop to discuss the survey results and solutions based on the requirements.&lt;/p&gt;
+&lt;p&gt;Interested people can connect with us at &lt;a href=&quot;mailto:opensourcerobotics@ipa.fraunhofer.de&quot;&gt;opensourcerobotics@ipa.fraunhofer.de&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Survey Link&lt;/strong&gt;: &lt;a href=&quot;https://forms.gle/q22nBa5a4f7NzDLL6&quot; rel=&quot;noopener nofollow ugc&quot;&gt;survey &lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;3 posts - 2 participants&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/survey-on-faults-errors-in-robotic-systems/16640&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Fri, 02 Oct 2020 13:47:21 +0000</pubDate>
+</item>
+<item>
+	<title>ROS Discourse General: ROS on Windows: Foxy Release v20200925.0.0.2010010001</title>
+	<guid isPermaLink="false">discourse.ros.org-topic-16632</guid>
+	<link>https://discourse.ros.org/t/ros-on-windows-foxy-release-v20200925-0-0-2010010001/16632</link>
+	<description>&lt;p&gt;The Microsoft Azure Edge Robotics team is happy to announce the Foxy Release v20200925.0.0.2010010001 for Windows developers.&lt;/p&gt;
+&lt;p&gt;As usual, you can install it by the following steps:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-auto&quot;&gt;mkdir c:\opt\chocolatey
+set ChocolateyInstall=c:\opt\chocolatey
+choco source add -n=ros-win -s=&quot;https://aka.ms/ros/public&quot; --priority=1
+choco upgrade ros-foxy-desktop -y --execution-timeout=0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Some highlights of this release:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Based on the &lt;a href=&quot;https://discourse.ros.org/t/new-packages-for-foxy-fitzroy-2020-09-25&quot;&gt;Foxy release sync 2020-09-25&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Enabled composition:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.ros.org/reps/rep-2001.html&quot;&gt;Desktop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ros-simulation/gazebo_ros_pkgs&quot; rel=&quot;noopener nofollow ugc&quot;&gt;Gazebo ROS Packages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://navigation.ros.org/&quot;&gt;Navigation 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ros-planning/moveit2&quot; rel=&quot;noopener nofollow ugc&quot;&gt;MoveIt2 Preview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Libraries and Python runtime:
+&lt;ul&gt;
+&lt;li&gt;Boost 1.73.0&lt;/li&gt;
+&lt;li&gt;CMake 3.18.2&lt;/li&gt;
+&lt;li&gt;EmPY 3.3.4&lt;/li&gt;
+&lt;li&gt;Gazebo 10.2.0&lt;/li&gt;
+&lt;li&gt;OGRE 1.12.7&lt;/li&gt;
+&lt;li&gt;OpenCV 4.3.0&lt;/li&gt;
+&lt;li&gt;OpenSSL 1.1.1g&lt;/li&gt;
+&lt;li&gt;PCL 1.9.1&lt;/li&gt;
+&lt;li&gt;Poco 1.9.2&lt;/li&gt;
+&lt;li&gt;Python 3.8.3 (embeddable distribution)&lt;/li&gt;
+&lt;li&gt;Qt 5.15.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Love your feedback and let us know on &lt;a href=&quot;https://github.com/ms-iot/rosonwindows/issues&quot; rel=&quot;noopener nofollow ugc&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Also check out &lt;a href=&quot;https://aka.ms/ros&quot; rel=&quot;noopener nofollow ugc&quot;&gt;https://aka.ms/ros&lt;/a&gt; for ROS related components from Microsoft and partners which are supported on Linux and Windows. And more getting started tutorials on &lt;a href=&quot;https://aka.ms/ros/docs&quot; rel=&quot;noopener nofollow ugc&quot;&gt;https://aka.ms/ros/docs&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Happy coding ROS Developers! &lt;img alt=&quot;:muscle:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/muscle.png?v=9&quot; title=&quot;:muscle:&quot; /&gt;&lt;img alt=&quot;:muscle:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/muscle.png?v=9&quot; title=&quot;:muscle:&quot; /&gt;&lt;img alt=&quot;:muscle:&quot; class=&quot;emoji&quot; src=&quot;https://sjc3.discourse-cdn.com/business7/images/emoji/twitter/muscle.png?v=9&quot; title=&quot;:muscle:&quot; /&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;small&gt;3 posts - 2 participants&lt;/small&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discourse.ros.org/t/ros-on-windows-foxy-release-v20200925-0-0-2010010001/16632&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Thu, 01 Oct 2020 23:39:21 +0000</pubDate>
+</item>
+
+</channel>
+</rss>
